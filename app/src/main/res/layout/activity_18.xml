@@ -1,0 +1,288 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.hencare.Activity18">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nBROILERS\n"
+                android:lineSpacingExtra="5sp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Caring Broilers\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Broilers are young chicken of either sex of six to eight weeks of age, tender meat with soft, pliable, smooth textured skin and flexible breast bone cartilage.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nHousing\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nProvide 930 cm2 floor spaces per broiler chick. Provision must be made for adequate ventilation. The general management of broiler chicks is similar to those discussed under egg type chicks.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nFeeding\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Provide up to 2 weeks 5 cm and from 3 weeks to finish 10 cm linear feeder space per bird. Raise the level of the feeder as the birds grow. Do not fill the feeder more than half. If tube feeders are used, provide 3 nos. of 12 kg capacity feeders per 100 chicks.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/henh4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nComposition of broiler ration\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hentab4"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nWatering\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Provide for 100 chicks of 0-2 weeks - 2 x 2 litres capacity waterers.
+\n*3 weeks to finish - 2 x 5 litres capacity waterers.
+\n*Ensure clean fresh water always.
+\n*Exercise extreme care and attention during the brooding period. If the losses in the first few days exceed 2%, carefully check the brooding management and get the postmortem examination done.
+\n*Reduce brooder temperature every week by 3oC. When the brooder is removed provide one 40-watts bulb for every 250 broilers during night.
+\n*To ascertain approximate quantity of feed and water that 100 broilers consume per day, the following formula given will be useful.
+\n*Kg feed per 100 birds - Age in days/4.4
+\n*Litres of water per 100 birds - Age in days/2.0
+\n*The above formula will give approximate figures under average conditions. Depending on the season of the year, there is likely to be variations in the range of 5-10%.
+"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/henh6"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nVaccination programme for broiler chicken\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hentab5"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/henh7"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" It is a problem met with caged layers due to increased deposition of fat in the body resulting in death due to internal hemorrhage.  Increasing the protein level and the diet strengthened by the addition of choline, vitamin B12, inositol and vitamin-E may be helpful in reducing the incidence of problem.
+\nProper ventilation, correction of light-intensity, duration, temperature, ideal environmental conditions, and maintenance of comfort in cages will check the conditions of hysteria of chicken in cages."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nProduction of Hatching Eggs\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If hatching eggs are to be produced, cockerels have to be maintained. Rear at the rate of 15 cockerels per 100 pullets, cull- down to 12 cockerels at 10 weeks of age. For mating, provide one cock for 10-15 pullets of light breeds and 6-8 pullets of heavy breeds. Collect hatching eggs two weeks after introduction of males.
+\nGather hatching eggs 3 to 4 times a day. In hot or cold season increase the frequency of collections. As soon as the eggs are collected, store them at a temperature between 10 and 16oC with a relative humidity of 70 - 80%. Select eggs for hatching that meet the weight requirement and that are normal in shape, colour and texture. While storing and transporting hatching eggs, keep them with broad end up and handle the eggs very gently. If possible either set the eggs for incubation or market hatching eggs twice a week. Never hold hatching eggs for more than one week under ordinary conditions of storage.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/henh8"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hrntab7"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nAdvantages\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. It is an economical
+\n2. Hygienic, comfortable and safe to birds
+\n3. Built up litter supplies vitamin B12 and Riboflavin to the birds
+\n4. Controls diseases and vices
+\n5. It increases the efficiency of production
+\n6. Materials such as paddy husks saw dust, dried leaf, chopped straw and groundnut kernels depending upon the availability can be used as litter materials."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nThe general guide for vaccination for chicken\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hentab8"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,796 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.catcare.Activity6">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DISEASES OF CATTLE\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BACTERIAL DISEASES\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ANTHRAX\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B.anthracis causes Anthrax in animals. Bacillus anthracis spores remain viable for many years in soil, water and animal hides and products. The main routes of entry of endospores are by ingestion, from soil when grazing or in contaminated food and by infection of wounds. Cattle, sheep and goats are most susceptible to infection.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*In peracute sepeticemia death occurs within 2 hours after animal collapsing with convulsions, sudden death in animals that appeared normal is common.
+\n*In acute septicemia death occurs within 48 to 96 hours clinical signs include fever, anorexia, ruminal stasis, hematuria and blood tinged diarrhea.
+\n*Pregnant animals may abort and milk production often abruptly decreases.
+\n*Terminal signs include severe depression, respiratory distress and convulsions."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prevention and Control\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Prevention of anthrax in animals is aided by active immunization. The organism is susceptible to penicillin-G, tetracyclines, erythromycin and chloramphenicol.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/dis1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HAEMORRHAGIC SEPTECEMIA\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pasteurella multocda is small Gram –ve rods or coccobacilli that showbipolar staining\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Fever, a sudden drop in milk yield, signs of abdominal pain, severe diarrhoea and dysentery, respiration becomes rapid and shortly before death the mucous membranes appear cyanotic.
+\n*In less acute cases there will be odema development in the region of the head, neck and brisket. The nasal discharge may be blood stained or purulent. Death occurs within 2-4 days."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prevention and Control\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Pasteurella is amenable to Penicillin-G, streptomycin, chloramphenicol, chlortetracycline, sulpha and tripmethoprim, enrofloxacin and oxytetracycline.
+\n*Vaccination"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BLACK QUARTER\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C. chauvoei causes black quarter or black leg in Cattle. Gram positive, rod shaped with rounded ends. Worldwide distribution in soil and pastures.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n*The disease usually occurs in young cattle of 6 months to about 2-3 years of age. Crepitating swelling in the hind or fore quarter, lameness, muscles shows trembling with violent twitching. Death usually occurs within 24 hours.."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prevention and Control\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Hyper immune serum (HIS) is used to control explosive outbreaks. Penicillin along with HIS is used to treat the disease.
+Oxytetra\n*cycline ans Chlortetracycline can also be employed effectively in early stages."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/dis2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BOVINE TUBERCULOSIS\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mycobacterium bovis causes bovine tuberculosis in many animal species and also cause tuberculosis in human\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clinical signs\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="General form\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Affected animals become docile, Progressive emaciation, Capricious appetite, fluctuating body temperature and rough / sleek hair coat, animal does not put up weight. All these general signs are pronounced following calving.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Respiratory form\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Silent or paroxysmal cough especially during early morning and chilled weather. Chronic cough with dyspnoea, squeaking crackles , enlargement of retropharyngeal lymphnode causes dysphagia and noisy breathing due to pharyngeal obstruction.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reproductive form\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metritis and inflammation of placenta leads to infertility, abortion and failure in conception.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Control and prevention\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Treatment and vaccination are inappropriate in control programmes for cattle. In many countries, tuberculin testing followed by isolation and slaughter of reactors has been implemented as the basis of national eradication schemes.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/dis3"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BRUCELLOSIS\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brucella abortus species are obligate intra cellular parasites and  cause abortion in last trimester of pegnancy\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*The disease in cattle is almost always caused by B.abortus.
+\n*The incubation period is usually from 30 to 60 days.
+\n*After bacteraemia the infection localizes in the placentae, if the animal is not pregnant, the infection localizes in udder (interstitial mastitis).
+\n*In the bull, orchitis and epididymitis.
+\n*Abortion at 6 months and retained placentae are the cardinal signs."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nPrevention and Control\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*The attenuated live vaccine is used in female calves 4 to 12 months of age.
+\n*The adjuvant bacterins is used as booster vaccine."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FOOT AND MOUTH DISEASE\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n*Foot and mouth disease (FMD) is the most contagious disease of mammals and cause severe economic loss in susceptible cloven-hoofed animals (cattle, pigs, sheep, goats, and water buffalo).
+
+Transmis\nsion : Direct contact : Through water : manure : Pasture and cattle attendant"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nThe disease is characterised by the formation of vesicles (fluid-filled blisters) and erosions in the mouth, nose, teats and feet. Initial signs are pyrexia (39.4-40.6ºC), dullness, anorexia, and fall in milk production. These signs are followed by excessive salivation; drooling, serous nasal discharge; shaking, kicking of the feet or lameness; and vesicle (blister) formation in  the tongue, dental pad, gums, soft palate, nostrils, muzzle, interdigital space, coronary band, and teats. Pregnant cows may abort, and young calves may die without developing any vesicle. The course of an FMD infection is 2 to 3 weeks. Secondary infection may delay recovery."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nPrevention and Control\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Thorough disinfection of shed, utensils, clothes of attendants.
+\n*Vaccination – polyvalent – once – 4months or varies with type of vaccine"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/dis4"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/dis5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Milk fever\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nMilk fever is a  metabolic disease in cows soon after calving. Due to fall in serum calcium level in cows after calving as a result of failure to mobilize calcium reserves and of the development of negative calcium balance in late pregnancy."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nDisease flares up with in 72 hours of calving initially the cows show excitement, incoordination of movement muscular tremors in limbs and head, lying in recumbent position with her head directed towards flank.  In final stages subnormal temperature, dilatation of the pupil, impalpable pulse, coma and death."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nTreatment and Control\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Dramatic recovery by intravenous administration of 300-400 ml calcium borogluconate with Vitamin D3 injected intramuscularly. Continued mixing of ½ liter of supernatant lime water for cow may reduce the incidence.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/dis6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bloat \n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nBloat is a disease of ruminants in which rumen and reticulum is over distended with  the gases of fermentation.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cause\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nExcess intake of fresh legumes and feeding of high grain ration lead to frothy bloat. Obstuction to normal expulsion of gases from rumen by choking the oestophageal passage by corncob, turnip and sugar beet cause free gas bloat.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nAcute form of tympany results in sudden death before rendering any aid to the affected animal. In acute cases, the distension of the rumen occurs quickly, the flank and the whole abdomen is enlarged.  On percussion the left flank produces a drum like sound, Initially the animal frequently gets up and lies down, kicks at belly and even rolls.  Breath becomes difficult and is evidenced by oral breathing, protrusion of tongue and salivation.\n
+When the distension of abdomen becomes extreme, the animal exhibits uncoordinated movement, inability to stand, falls all of a sudden.  Collapse and death occur quickly. In chronic tympany, the distension of abdomen and intra-abdominal pressure are not serious.  The gas is ‘free’ but retained because of obstruction of the pasage thereby preventing normal eructation of gases."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nDiagnosis \n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nBased on characteristic symptoms of distension of abdomen and distress by the affected animal.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nControl and Treatment\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nIn per acute cases puncture the rumen with a sharp knife or with a trocar and canula to expel the gases.  Administer orally oil of turpentine 60 ml well mixed with one litre of groundnut oil or gingelly oil or cocounut oil. After six to eight hours administer powdered ginger 30 grams, Asafoetida 30 gram, well mixed to jaggery. Fresh legumes should be wilted and then fed to stallfed animals.  Feed dry roughages before turning the cattle to luxuriant pasture to avoid bloating.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/dis7"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MASTITIS\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introduction\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n*Mastitis is an inflammation of the mammary gland. In which the milk undergo physical, chemical and microbiological changes where as mammary glandular tissue under go physical and pathological changes. In which infected milk colour, consistency change and contains more amount of leucocytes."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Etiology\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n*Mastitis is caused majorly by Staphylococcus, Streptococcus and coliform bacteria and less importantly by other organism such as other bacteria, viruses, and fungus.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clinical signs\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n*Per acute form: Pyrexia, anorexia, respiratory distress, swollen, hot and painful udder. Cessation of milk production. Exudate are often blood stained.
+\n*Acute form: Swollen udder, changes in quality of milk. Milk become curd like, yellow, brown fluid with flakes and clots.
+\n*Subacute form: No changes in the udder tissue.
+\n*Chronic form: Udder is haemorrhagic, and fibrotic. Swollen and palpable supra mammary lymphnode,. Udder is thick, firm, nodular and atrophic, yellowish or white fluid with clots and flakes."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nTreatment\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Stripping out the milk from the infected quarters. Cleaning of infected quarters with normal saline and distilled water. Infusion of antibiotic therapies immediately after the infection. Continuous use antibiotics as per the antibiogram.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nControl: \n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n*Hygenic measures are important.
+\n*Animals diagnosed positive should be milked at last.
+\n*Milkers should wash their hands before milking and should use well washed white overalls.
+\n*A separate clean cloth for each cow is used for washing the udder with a disinfectant.
+\n*The first stream of milk from each quarter should not be allowed to drop on floor but collected in a separate container.  Milkers should not wet their hands with first stream of milk."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nAnaplasmosis\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n*Anaplasmosis is a vector-borne, infectious blood disease in cattle caused by the rickesttsial parasites Anaplasma marginale and Anaplasma centrale.
+\n*It can also be transmitted via contaminated needles, dehorning equipment, castrating knives, tattoo instruments, biting flies and mosquitoes.
+\n*The intracellular parasite destroys red blood cells.  It causes anemia, fever, weight loss, breathlessness, uncoordinated movements, abortion and death. "
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nBOVINE BABESIOSIS (Red water disease, Tick fever)\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n*Bovine babesiosis is a febrile, tick-borne disease of cattle and buffalo, caused by one or more protozoan parasites of the genus Babesia.
+\n*The acute form is generally characterized by rapid growth and multiplication of the parasite in blood with extensive erythrocytic lysis leading to anemia, icterus, hemoglobinuria, enlargement of the spleen, and frequently, death.\n*
+The term Babesiasis refers to the subclinical and chronic infections that usually persist following recovery from initial attack by the parasite.
+\n*The chronic form is poorly defined clinically and is associated with anemia and variable weight loss."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nTheileriosis\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n*Theileriosis is a disease of mammals-
+\n*T. parva and T. annulata in cattle
+\n*Marked pyrexia, lymph node enlargement, dyspnoea, epistaxis, emaciation, diarrhoea and other GI signs.
+\n*Ocular signs and masses may develop.\n*
+Pruritus and skin lesions/plaques are also seen.
+\n*Neurological and reproductive signs may develop in chronic or endemic disease.\n*
+The degree of pyrexia, pathogen load and host susceptibility will determine the severity of clinical signs at presentation."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cat_vacc"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

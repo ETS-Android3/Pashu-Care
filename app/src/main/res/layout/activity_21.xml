@@ -1,0 +1,150 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.hencare.Activity21">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nGROWING CHIKS\n"
+                android:lineSpacingExtra="5sp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nCare and management of newly arrived chicks\n"
+                android:lineSpacingExtra="5sp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n*Plan the requirements of chicks, book with hatchery people and contact and confirm the exact date and time of arrival of chicks. When chicks are delivered, do not allow the delivery van into the farm premises. Take delivery at the entrance itself.
+\n*Keep boiled and cooled drinking water ready. Add 8gm of glucose, 0.5-1gm of mild antibiotic or antibacterial drug per liter, electrolytes and vitamin mixture at recommended dosage in water for the first day.
+\n*Antibiotics and vitamins may be continued for 3-5 days.
+\n*Keep medicated water in the water before leaving the chicks into the brooder arrangement.
+\n*Keep feeders open for five hours and spread a little feed on the newspaper. Check. Whether the chicks are healthy, of uniform weight with in the suggested range of 40-48 gm each.
+\n*Count the chicks, dip the beak of the chicks in the drinking water and place it gently into the brooding arrangement. .
+\n*Return weak, inactive, unhealthy chicks with matted feather at the back and the dead chicks and ask for replacement.Check that the chicks’ move actively scratching and taking feed and water.
+\n*If kerosene stoves or coal stoves are used a metal vessel with sand is placed over the stove to dissipate heat properly.
+\n*Heater coils may also be provided for warmth instead of bulbs. They have to be hanged above the reach of the chicks.
+\n*It is necessary to verify whether the warmth given is sufficient to the chicks. During 1st week, chicks require 35 C (95 F) warmth, which may be reduced by 5C every week.
+\n*A thermometer kept at the bird level will indicate the temperature.
+\n*However, more practical way of assessing the adequacy of warmth provided is by watching the distribution of chicks with in the brooder guard management. If they are crowd under or near the source of heat, then the warmth given is not sufficient. Then a bulb may be added to the hover or the height of the hover may be brought down.
+\n*If chicks have moved to the periphery and are reluctant to come to the centre under heat source, then temperature in the environment is higher than required. The hover may be pushed up or a bulb removed.
+\n*If the chicks feel comfortable at the given temperature, they walk actively throughout the area unmindful of the heat provided and some taking rest setting their head down on the side, the posture being given the name as chick comfort.
+\n*Particularly, the hover may be put on for 22 hours in a day switching it off for only 30 minutes during the night. Later on, lighting for heat may be given during night only up to the end of 2nd or 3rd week, depending on the season. It may be restricted to one-week only during peak summer and extended to three weeks during winter or rainy seasons. In such seasons, it is advisable to close sides of the house with thick curtains during first week."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/henh9"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nCare of growing chicks\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The brooder and artificial heat should be removed after about 6 weeks of age. Cull and dispose of unthrifty and sick chicks. Floor space should be 0.095-0.19 m2 floor space per bird. From 8 weeks of age, place the birds on a grower feed. A formula that can be used is given below.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nComposition of grower ration\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hentab9"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nAverage feed consumption of egg type birds during growing period\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hentab10"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

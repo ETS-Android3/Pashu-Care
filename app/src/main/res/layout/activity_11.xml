@@ -1,0 +1,211 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.buffcare.Activity11">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5sp"
+                android:text="MILK PRODUCTION\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="\nLactation and milk yield\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="The onset of lactation is with the birth of the calf. The initial yield is a reliable indicator of the animal’s genetic potential. The highest yield is reached after five to six weeks of lactation and maintained for some weeks. Thereafter the yield decreases until the end of lactation. The lactation ends as the dry period starts.
+
+\nIn buffaloes, the highest milk yield is seen in the fourth lactation where after it declines. The shape of the lactation curve depends on factors such as feed, management, milking frequency, diseases among others. The length of lactation and yield for various breeds is shown in Table 10. The optimum lactation length in the Murrah has been reported to be 262 to 295 days. Factors affecting lactation and milk yield
+
+\nLactation and milk yield depend on both genetic and non-genetic factors. The genetic influence is due to species, breed, and individual. Further, it is affected by ability to reproduce, e.g. fertility and thereby calving interval. Improvement on these may be the result of breeding and selection.The non-genetic factors are management, amount and quality of feed and skill of the farmer to detect heat and illnesses. Factors which are outside the farmer’s control such as climate, temperature, humidity etc. also influence lactation and milk yield.
+
+\nFeeding is the most important factor for increasing and sustaining the milk yield. Sufficient amount of energy, protein, minerals and water must be provided in order to achieve maximum yield. See section on Practical feeding of the lactating buffalo.Calving interval is closely related to lactation length and milk yield. The longer the calving interval, the longer the lactation and the higher the lactation yield. However, total life time yield will be substantially less comparing with a buffalo with short calving intervals.Milking frequency affects both total milk and fat yield. A study using Murrah buffaloes showed that 31% more milk and 26% more butter fat resulted from milking three times per day as compared to twice a day.
+
+\nWeight of the heifer seems to affect milk yield. Studies on Murrah indicates that the heifers should weigh at least 500 kg at the time of calving in order to reach a maximum milk yield.\n"
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="\nDry period\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="The buffalo should be dried off approximately 2 to 3 months before expected calving. The dry period is valuable to the buffalo, she may rest and the udder tissue is repaired.In a high yielding herd (above 10 kg per day) the buffalo should be dried off when the daily yield falls below 2.5 kg, even if it is still more than 3 months to expected calving. This goes especially for machine milked herds. An alternative to drying off is to use the buffalo as a foster mother to newly born calves. One buffalo may serve one newborn calf or two older calves which receive additional feed. Care should be taken to dry her off completely no later than 2 months before calving.
+
+\nIn herds which are hand milked and where the yield is low, it is difficult to set a lower limit in kg. Instead, the 2 months limit is recommended.\n"
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bufftab1"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bufftab2"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="\nMilking the buffalo\n"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Buffaloes have been used for milk production for centuries. They have not been subjected to the same upgrading and breeding like cattle of the western world. However, the buffalo is an excellent milk producer, given the correct circumstances. Milking the buffalo is not a difficult task. One should, however, take care not to implement cattle milking techniques directly on the buffalo cow. As described below, the anatomy and physiology of the buffalo udder differs slightly from the bovine one. This has further implications on the milking technique as mentioned later.\n"
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bufftab3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="\nHand milking\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Pre-milking routines are as important when milking buffaloes as when milking cows. For a complete review see Efficient Milking. It is important to use a smooth and comfortable milking technique. The ”knuckling” or ”stripping” method is used in the wrong belief that it is necessary in order to overcome the resistance in the teat sphincter. These milking methods might cause elongation and damage to the teats. A much more comfortable and appropriate method is the”fullhand” technique.\n"
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="\nMachines for milking buffaloes\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Since the udder and teats in buffaloes are different compared to cattle, milking machines for cattle have to be modified in order to fit buffaloes. In general, a heavier cluster, a higher operation vacuum and a faster pulsation rate is required. Results from recent studies in India indicate that it might be possible to reduce the cluster weight and the frequency of liner slip by applying an appropriate combination of liner design and cluster weight.
+
+\nIt is not only the total weight of the cluster that is important, but also the distribution of its weight on the udder. Unequal weight distribution can cause uneven milk output. The long milk and vacuum tubes should be aligned and stretched to ensure equal weight distribution of the cluster on the udder.
+
+\nMilking characteristics depend upon vacuum levels and pulsation rates among others. Studies on Egyptian buffaloes revealed that a vacuum of 51 kPa and a pulsation rate of 55 cycles/min led to much longer milking times than a vacuum of 60 kPa and a pulsation rate of 65 cycles/min (6.21 min. compared to 3.18 min.). The higher vacuum level, however, caused a significant increase in the somatic cell counts. Highest milk yield within an acceptable time were found when using 56 kPa and 65 cycles /min. In all trials a pulsation ratio of 50:50 was used. Studies in Pakistan indicated that the pulsation rate and ration should be 70 cycles/min and 65:35 respectively for Nili-Ravi buffaloes.
+
+\nIn Italy, the majority of farms use the same machines for both buffaloes and cattle. It is a simple ”cattle machine” with one vacuum level operating at approximately 40 cm Hg. In India, recent trials have been made with milking with Duovac TM from Alfa Laval Agri. Successful milking was done with a vacuum level of 55 kPa, 70 cycles/min pulsation rate and pulsation ratio of 65:35 for milk flows above 0.2 kg/min. For milk flows under 0.2 kg/min the respective data where 38 kPa, 48 cycles/min and the same pulsation ratio. The Duovac TM is physiologically correct for the animal since it helps in gently stimulating let-down and is also gentler to the teats after the peak flow.\n"
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="\nMilking with machines\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="In order to obtain all the advantages with machine milking the correct technique must be used. The milkers and buffaloes must be familiar with the machines. If the buffaloes are scared or feel uncomfortable they will withhold the milk and thereby yield less. This in turn will lead to economic loss for the farmer and eventually he will loose his faith in machine milking.\n"
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bufftab4"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

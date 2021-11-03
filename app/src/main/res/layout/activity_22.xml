@@ -1,0 +1,272 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.hencare.Activity22">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Care of Laying Birds\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Housing\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At 18 weeks of age all under grown pullet chicks are to be culled and disposed off. Careful selection at the time of housing enables better returns and fewer culls later. The stock can either be reared in the same house where it was grown or transferred to laying house. Optimum housing density should be maintained for best utilization of house, equipment and labour. Provide 65 feet of floor space per egg type bird. Nest boxes must be introduced to laying house two weeks prior to the onset of lay to help birds to get used to nest. The nests should be roomy, dark, cool, well ventilated and located on one side of the building. Nest boxes made of cheap deal wood, measuring 30 x 30 x 40 cm each may be provided at the rate of one box for every five hens. Clean nesting materials should be placed inside the nest boxes and the nesting materials should be changed periodically. If needed, top-dress the litter with new material.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/henh10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nLight: Use correct lighting schedule to ensure better performance. While light period should not be increased for growing birds, it would be advantageous to increase the light period or photoperiod for laying chicken from 22nd week of age onwards at the rate of 15 minutes per week so as to reach 16 hours of total photoperiod (natural plus artificial). When the birds have been in lay for about 6 months, the photoperiod may be increased to 17 hours per day. The light period may be constantly maintained throughout the rest of laying period. There is no special advantage in increasing the photoperiod over 17 hours per day. The lighting programme, if started, should be followed systematically.\n"
+                android:textColor="#000000"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\Feeding: A good quality layer mash should be provided to the laying birds.\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Ration of layer mash for chickens\n"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hentab11"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cage Layer Management\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The advantages of cage rearing are easy management, housing of more number of birds in limited space, clean egg production, less problem due to parasites and other diseases, easier culling, etc. Some of the disadvantages include high initial investment, wet dropping, odour and fly problem. To offset these problems, elevated cage houses are useful.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hentab12"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nBreeder management: Breeding birds are reared for the production of hatching eggs. Care should be taken to produce maximum fertile eggs that hatch well. For this purpose males should be reared separately from the females during the growing period. Breeder males should be introduced to the flock of females at 20 weeks of age in the ratio of 1 : 8 for heavy breeds and 1:10 for light breeds. Hatching eggs can be saved from the age of 24 weeks onwards. The birds must be kept free of Pullorum disease and Mycoplasmosis.
+Clean and dry litter is necessary to produce clean eggs with good hatchability and to improve general health of birds. The hatching eggs should be fresh and with good shell quality. Hair like cracks on the egg shell will reduce hatchability. Nests should be provided at the rate of one per five birds.\n
+Breeding birds should be given breeder mash or a layer mash supplemented with MnSO4, Choline Chloride, Selenium, Vit. E, Lysine and Methionine as per standards."
+                android:textColor="#000000"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nFeed restriction in meat type breeders: Meat type breeders have the inherent ability to grow faster. There is a negative correlation between the body weight and reproductive capacity. Hence top priority should be given to control the body weight of broiler breeders during growing and laying phases so as to get maximum production and profit.\n"
+                android:textColor="#000000"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Advantages of feed restriction\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n*Uniformity in the flock.
+\n*Produces better egg size during early periods of laying.
+\n*Reduces body weight at sexual maturity.
+\n*Offers better livability during egg production.
+\n*Avoid problems of fertility and hatchability.
+\n*Leg disorders due to over feeding can be controlled.
+\n*Mortality due to over feeding will be prevented.
+\n*Avoid mating difficulties due to their large body size in males."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nMethods of feed restriction\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="There are two methods of feed restriction
+
+\nRestrict the daily amount of feed given to the bird considering the body weight standards of the particular breed.
+\nSkip a day feeding either by feeding every alternate day or by skip feeding one day per week."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nCulling: Year round culling of unproductive stock will fetch better profit. Culling is based on physical characters, which reflect the physiological changes related to egg production.\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Culling for better returns
+Birds which do not perform well are culled to optimize profits. Culling is practiced on the basis of outward appearance of available records. Stunted growth and physical deformity do not pose any problem. Culling for poor production or non-production requires handling of all the stocks in the laying pen. Since culling may be a source of annoyance to the flock thereby causing a drop in production it should be practiced in the night.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Culling from outward Appearance
+The appearance of a bird though not an index of its laying ability gives an idea about its health and vigour. The main characteristic for distinguishing a layer from a non-layer is given below.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hentab12"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nSummer management: \n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chickens prefer a laying house temperature of about 23.8oC and are comfortable up to 29.4oC. When the laying house temperature is above 32.3oC, birds are uncomfortable and the feed consumption is greatly reduced with low egg production. Over 37.8oC, the mortality rate is rather high. Coupled with these, the farmer often faces low egg prices also. Therefore adequate protection of laying birds during hot weather is emphasized.
+The following tips are recommended to keep the birds comfortable and to curtail deaths during summer months.
+
+\n*Provide plenty of clean, cool drinking water at all times. Crushed ice may be provided in waters if possible.
+\n*Plant shade trees around the poultry house.
+\n*Use a hosepipe sprinkler on the roof. Sprinkling can reduce temperature inside the house.
+\n*Clean the wire netting regularly to maintain perfect ventilation.
+\n*Reduce the thickness of old built-up litter. Two inches of fresh litter may be provided in the place of old litter.
+\n*Preferable to give artificial light in the early morning hours so that birds eat and drink more during the cooler hours of the day.
+\n*Provide plenty of soluble grit so that the hens can adjust their calcium intake. This will save a lot of cracked and broken eggs.
+\n*Addition of electrolytes, Vitamin C, and probiotic in drinking water helps to alleviate heat stress.
+\n*Provide fan ventilation during summer.
+\n*Feed during cool hours of the day. Addition of vitamins and minerals in the feed is advantageous.
+\n*Hang wet gunny bags on the sides.
+\n*Keep water in mud pots.
+\n*Provide sprinklers in the pen."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

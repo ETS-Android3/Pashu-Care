@@ -1,39 +1,16 @@
 package com.sandydalvi.agroapp;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
-import android.text.BoringLayout;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.WindowManager;
-import android.widget.AbsListView;
-import android.widget.ProgressBar;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import com.sandydalvi.agroapp.Types.TypesActivity;
+import com.sandydalvi.agroapp.care.AnimalCare;
+import com.sandydalvi.agroapp.trading.SearchActivity;
+import com.sandydalvi.agroapp.trading.account.LoginActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -54,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         lay1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,CommodityActivity.class);
+                Intent intent=new Intent(MainActivity.this, TypesActivity.class);
                 startActivity(intent);
             }
         });
@@ -62,39 +39,39 @@ public class MainActivity extends AppCompatActivity {
         lay2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,CommodityActivity.class);
+                Intent intent=new Intent(MainActivity.this, AnimalCare.class);
                 startActivity(intent);
             }
         });
 
-        lay3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,CommodityActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        lay4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,CommodityActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        lay5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,CommodityActivity.class);
-                startActivity(intent);
-            }
-        });
-
+//        lay3.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent=new Intent(MainActivity.this,CommodityActivity.class);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        lay4.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent=new Intent(MainActivity.this,CommodityActivity.class);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        lay5.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent=new Intent(MainActivity.this, WeatherActivity.class);
+//                startActivity(intent);
+//            }
+//        });
+//
         lay6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,CommodityActivity.class);
+                Intent intent=new Intent(MainActivity.this, SearchActivity.class);
                 startActivity(intent);
             }
         });

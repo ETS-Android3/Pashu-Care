@@ -1,0 +1,268 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.buffcare.Activity12">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DISEASE MANAGEMENT\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nBUFFALO-POX\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The disease occurs in India in both generalized and localized forms, udder, inner thigh, lips and nostrils. The disease is of zoonotic importance manifesting lesions on the hands and fingers of milkers. The methods of treatment and prevention are similar to those recommended for cow-pox. Since buffaloes wallow in marshy places care should be taken to see that the wounds are cleaned well and kept free form files. Attempts to develop a vaccine against buffalo-pox have not given encouraging results.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nSymptoms \n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="After an incubation period of 2 to 5 days there is some rise in body temperature; the animal develops pin-point red spots and papules of the size of mustard or sago which cab be felt by hand.  Later, these papules coalesce into vesicles, Papules occurring on the udder are generally circular, but those on the teats are elongated.  The lesions heal in the course of 15 to 20 days; the udder and the teats regain their normal appearance.  In males, the disease is very often unnoticed, because the, being on the scrotum and inside of the things are often covered with dirt and consequently hidden from view."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nTreatment, Prevention and Control\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The lessons heal by themselves in the normal course and the adoption of special measures is not called for; only the usual rules of hygiene need to be observed.  The lesions should be cleaned with a 1:1,000 solution of potassium permanganate followed by the application of an antiseptic ointment such as 1:110 boric acids.  The affected animals should be isolated and milked by separate milkers.  Milk from affected animals should be boiled before use.  If the disease assumes serious proportions, vaccination may be undertaken by scarification in the perineum with calf lymph or with material collected from lesions from the anima."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nBLACK QUARTER\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black quarter is an acute infection but a non-contagious disease characterized by inflammation of muscles, severe toxaemia and high mortality in cattle and sheep."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nTransmission\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In cattle the disease is confined to young stock between the age of 6 months and 2 years. Buffaloes usually suffer a mild disease. The outbreaks occur with a onset of rainy season. The cattle acquire infection from ingestion of organism and the ingested bacteria remain as dormant spores in tissues until predisposing factors stimulate the development of negative forms and rapid multiplication and formation of toxins."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nSymptoms \n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sometimes animal may be die without showing symptoms. The most obvious sign in a crepitate swelling in hind- or forequarters crackles when rubbed due to gas in the muscle. The symptoms are fever, lameness and switching of the muscles of the affected region. Death usually occurs within 24 hours of the symptoms first observed. The affected region is hot and painful but soon becomes cold and painless, and there is crepitation due to gas. The skin over the affected area becomes dry, hard and dark. Sometimes the muscle of neck and back is affected in sheep; there is high fever and anorexia."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nTreatment\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penicillin and tetracycline’s if given promptly and inoculated into the site of lesion are of value and should be given in normal therapeutic dose. Sulphathiozole and antitoxicsera also effective."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nControl\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hygiene and prophylaxis are the methods of control. Proper hygiene requires the destruction of carcases by burning, and cleaning and treatment of all wounds.
+
+\nActive immunization of animals has proved to be effective. The vaccine used is formalized alum precipitated whole culture vaccine. It is a common practice to vaccinate animals before the onset of rainy season. In sheep vaccination prior to lambing or castration and docking is a useful precaution."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nJOHNE`S DISEASE\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Johne`s disease is a specific chronic contagious enteritis of cattle, sheep, goat, buffaloes and occasionally of pigs. The disease is characterized by progressive emaciation and in cattle and buffaloes by chronic diarrhea and thickening of the intestine."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nTransmission\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Under natural conditions the disease spread by ingestion of feed and water contaminated by the faeces of infected animals. The infection occurs mostly in the early month of life. The incubation period extends from 12 months to several years. The animal aged 3 to 6 years mostly suffer from the disease. Affected animals may not show clinical symptoms continue to discharge organisms in faeces. The organisms persist in pastures for about 1 year. The organisms are susceptible to sunlight, drying and high PH of soil; continuous contact of urine with faeces reduces the life of bacteria.
+\nIn cattle clinical signs appear mainly during 2-6 years of age. The infected animals which are apparently healthy often show clinical signs after parturition."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nTreatment\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The organisms are more resistant to chemotherapeutic agent’s invitro than Mycotuberculosis. Because of this the practical utility of treatment in clinical cases is poor."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nControl\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The affected animal should be segregated and their faeces properly disposed off. Alive vaccines have been developed. It reduces the incidence of clinical disease. It consists of a non-pathogenic strain of Jhone`s bacillus with an adjuvant. The calves soon after birth are inoculated with vaccine subcontaneously. The vaccinated animals become reactors of Jhonin. Vaccination is generally done in heavily infected herds. "
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

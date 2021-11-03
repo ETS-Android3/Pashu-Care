@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.AnimalCare">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/ic_baseline_arrow_back_24" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/ic_baseline_search_24" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:textColor="#616A6B"
+            android:textSize="30sp"
+            android:textAllCaps="true"
+            android:padding="10dp"
+            android:fontFamily="@font/audiowide"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_bk2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="Cattle Care"
+                    android:textColor="#000000"
+                    android:textSize="28sp" />
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@android:color/transparent"
+                    android:padding="20dp"
+                    android:text="EXPAND ALL"
+                    android:textColor="#000000" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/care_cow"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/food_back">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="Hens Care"
+                    android:textColor="#ffffff"
+                    android:textSize="28sp" />
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@android:color/transparent"
+                    android:padding="20dp"
+                    android:text="EXPAND ALL"
+                    android:textColor="#ffffff" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/hens_back" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_bk3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="Goat Care"
+                    android:textColor="#000000"
+                    android:textSize="28sp" />
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@android:color/transparent"
+                    android:padding="20dp"
+                    android:text="EXPAND ALL"
+                    android:textColor="#000000" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/goat_cat2"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_height="150dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_bk5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="Buffalo Care"
+                    android:textColor="#ffffff"
+                    android:textSize="28sp" />
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@android:color/transparent"
+                    android:padding="20dp"
+                    android:text="EXPAND ALL"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/buff_cat" />
+
+        </RelativeLayout>
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:background="@drawable/food_back">-->
+<!--            -->
+<!--            <ImageView-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="120dp"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:src="@drawable/hens_back"-->
+<!--                android:layout_marginLeft="20dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/baloo"-->
+<!--                android:padding="25dp"-->
+<!--                android:text="Cattle Care"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:textColor="#ffffff"-->
+<!--                android:textSize="28sp" />-->
+
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="#000000000"-->
+<!--                android:text="EXPAND ALL"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:textColor="#ffffff"-->
+<!--                android:layout_alignParentBottom="true"-->
+<!--                android:padding="20dp"/>-->
+<!--            -->
+<!--        </RelativeLayout>-->
+
+
+    </LinearLayout>
+
+
+</ScrollView>

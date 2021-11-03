@@ -1,0 +1,772 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.catcare.Activity8">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Floor, Feeding and Water Space Requirement\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cat_h1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nRoof\n"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nLean to type roof\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*These are simple roof with single slope adopted for shed type of buildings.
+\n*Roof ventilation cannot be provided in this pattern.
+\n*In this type of roof one wall is higher than another one to give necessary slope for roof."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cath2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nGothic arch\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*This is an arched roof providing greater roof space used for store houses.
+\n*Used for storage of feed."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cath3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nMonitor roof\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*The roof has two slopes, but one overlaps other at the ridge of the roof with a ventilation gap of one feet.
+\n*In this roof ventilation can be provided in between two slopes.
+\n*This is also suitable for tropical buildings and it serves the purposes of ventilating and lighting the building.
+\n*Semi monitor roof : Roof has 2 slopes but one overlap the other at the ridge of roof with ventilating gap of 1 feet."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nGable roof\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*These are coupled roof with two slopes.
+\n*Roof ventilation can be provided in this pattern."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nRoofing materials\n"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nPan tiles or Mangalore tiles\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*They are cheap and easily available in most of the places.
+ \n*It conducts heat rapidly.
+ \n*It is suitable for hot climate.
+ \n*Wind or accident easily damages them.
+ \n*It has to be renewed periodically.
+\n*These are rectangular tiles with grooves on outer surface and two nibs on the inner surface.
+ \n*They are lied one at the side of the other to cover the roof."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cath4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nCountry tiles\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*They are cheap and easily available in most of the places.
+\n*They conduct less heat.
+\n*These are semi-circular tiles of different shape and dimensions.
+\n*They are used by keeping one over other in layers forming numerous air pockets acting as insulators."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cath5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nAsbestos sheet\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*These are commonly used in animal buildings.
+\n*Asbestos sheets are prepared by mixing cement mixture with varying quantities of vegetable fibers.
+\n*They are available as sheets of different dimensions with corrugated surfaces.
+\n*Sheets are easily fixed to roof trusses and more durable than tiles.
+\n*But the houses under this roof will be hotter during summer."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cath6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nAluminum Sheets\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Corrugated aluminum sheets of different thickness and dimensions are available in the market as roof coverings.They are 2 ½ feet width and varying length from 8 to 12 feet. They are very light and can be easily fixed.
+\n*The bright and polished surface of new sheets provides a reflective insulation and keeps the animal houses cool during summer.They are expensive but have a greater resale value.
+\n*They are rust proof and therefore they are more durable.They shall be painted black inside and white outside to facilitate better microenvironment inside the animal building."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cath7"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nGalvanized iron sheets\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*These are iron sheets, which are galvanized on the surface and provided with corrugation.
+ \n*They are available in standard dimension of 6 feet x 3 feet.
+ \n*Galvanized sheets are commonly used in animal houses but this sheet keeps the house very hot during summer.
+\n*It is suggested that sheet should be painted white on outer side to avoid absorption of heat.
+\n*They are strong and may be rusted after long use."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cath8"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nThatched Roof\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*This roof is made of either coconut or Palmyra leaves.
+\n*Sometimes hay and straw are used as roof coverings.
+\n*They are cheap and poor conductors of heat.
+\n*They keep the house cool in summer.
+\n*They are non-durable and has to be removed yearly or once in two year.
+\n*They are very prone for fire accident."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cath9"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nReinforced Cement Concrete\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*This roofing material made up of mixture of cement, sand, small cresor stones with iron rods to make solid concrete.
+\n*This is very strong and more durable.
+\n*This material reduces heat inside the animal shed.
+\n*It costs more expensive than other materials."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cath10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nFloor\n"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nSolid floor\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*It is a common floor with solid surface made out of different materials such as cement concrete, vitrified paving brick, building brick, stones and gravel.
+\n*Such solid floors should be laid properly for good drainage.
+\n* A slope of 1/40 is desirable in animal standing and a slope of  1/60 is desirable towards the dung channel.
+\n*Even in surface with impervious quality is necessary to prevent water stagnation.
+\n*In this type proper cleaning and disinfection are essential to control diseases."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cath11"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nDeep litter floor\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*It is made of bedding material as dried layers.
+\n*Straw, paddy husk, saw dust groundnut hulls, dried leaves are spread on the floor used as litter materials.
+\n*It can be spread as layer of 4-6 inches thickness and can be allowed to accumulate over a period of a month to 1 year.
+\n*The litter get mixed with excreta and decomposed.
+\n*The dried litter materials absorb the moisture. Hence bacterial activity is controlled.
+\n*Excessive bacterial action in the deep litter is kept controlled by addition of lime."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cath12"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nBuilding Units\n"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nSingle row system\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*In single row system, 12-16 numbers of animals can be kept."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nDouble row system\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*If it is greater than 16, then double row system is preferable.
+\n*In double row system up to 50 animals can be maintained in a single shed.
+\n*The distance between two sheds should be greater than 30 feet or it should be twice the height of the building."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\n*Tail to tail system\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nAdvantages\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Cleaning and milking of animals easy.
+\n*Supervision of milking also easy.
+\n*Less chance for transmission of diseases from animal to animal.
+\n*Animals can get more fresh air from outside.
+\n*This system is more labour friendly system."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cath13"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\n*Head to head system\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nAdvantages\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Getting animals into the shed is easy.
+\n*Feeding of animals also easy.
+\n*Disinfection of gutter will be more due to the direct fall of sunrays over the gutter.
+\n*Animals are better exhibited to visitors"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nDisadvantages\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Milking supervision is difficult.
+\n*Possibilities of transmission of disease are more.
+\n*Not labour friendly."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cath14"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nHousing Methods\n"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nLoose Housing\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*It is a system of housing in which animals are kept loose in an open paddock throughout the day and night except at the time of milking and treatment.
+\n*In this system, shelter is provided along one side of open paddock under which animals can retire when it is very hot or cold or during rains.
+\n*Common feed manger and water tank is provided and concentrates are fed at the milking time which is done in a separate milking barn or parlour in which cows are secured at milking time and are milked.
+\n*The open paddock is enclosed by means of half walls or plain wire fences of convenient height."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nAdvantages\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="**Cost of construction is cheaper.
+\n*Future expansion is possible.
+\n*The animals will move freely so that it will get sufficient exercise.
+\n*The animal can be kept clean.
+\n*Common feeding and watering arrangement is possible.
+\n*Clean milk production is possible because the animals are milked in a separate milking barn.
+\n*Oestrus detection is easy.
+\n*At least 10-15 percent more stock than standard can be accommodated for shorter period."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nDisadvantages\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*It is not suitable for temperate Himalayan region and heavy rainfall areas.
+\n*It requires more floor space.
+\n*There is competition for feed.
+\n*Attention of individual animal is not possible.
+\n*A separate milking barn is needed for milking of animals."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cath15"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nConventional Barns or Stanchion Barns\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*In this system of housing, the animals are confined together on a platform and secured at neck by stanchions or neck chain.
+\n*The animals are fed as wells as milked in the same barn.
+\n*These barns are completely covered with roofs and the sidewalls are closed with windows or ventilator located at suitable places to get more ventilation and lighting.
+\n*It is applicable for temperate and heavy rainfall region.
+\n*The same type of housing can be utilized for tropical region with slight modification."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nAdvantages\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*The animals and men caring for animals are less exposed to harsh environment.
+\n*The animals can be kept clean.
+\n*Diseases are better controlled.
+\n*Individual care can be given.
+\n*Separate milking barn is not required."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nDisadvantages\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Cost of construction is more.
+\n*Future expansion is difficult.
+\n*Not suitable for hot and humid climatic conditions."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cath16"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

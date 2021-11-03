@@ -1,0 +1,308 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.gocare.Activity13">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOUSING\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Housing of goats is not a serious problem. It is enough if the goats are provided with a dry, comfortable, safe and secure place, free from worms, and affording protection from excessive heat and inclement weather. In Indian villages goats are mostly kept under widespread shady trees when the Climate is dry, provided the goats are safe from thieves and predatory animals such as wolves and panthers. The kids are kept under large inverted baskets until they are old enough to run along with their mothers. Males and females are generally-kept together.
+\nIt is worthwhile to design a cheap house for goats which may result in increased milk and meat production. Some kind of housing is necessary if herds of goats are maintained in cities and at organized farms; adequate space, proper ventilation, good drainage and plenty of light should be provided for while constructing houses. Successful goat dairying largely depends on the site where goats are kept. Goats do not thrive on marshy or swampy ground. Grazing areas should be free from pits and shallow pools, for goats contract parasitic infection mainly from such places."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="'Lean-to' Type Shed\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The cheapest form of building is the 'lean-to' type shed located against the side of an existing building. Such a shed for a family of two goats should be 1·5 m wide and 3·0 m long. This length provides 0.3 m for the manger and 1·2 m for the goats; the remaining 1·5 m space is sufficient for two milking does with a stub wall between them. The height nearest the wall should be 2·3 m and on the lower side 1·7 m giving a slope of 0·6 11) to the roof, which may be tiled or thatched. An open-framed window of good size on the lower side and an open-­framed door should be provided. Arrangements for storing hay or dried feed can be made overhead.
+
+\nThe plan for a house varies with the climatic conditions and the type of flock to be sheltered. In dry climates with a rainfall of 50 to 75 cm a long shed open on the sides, little exposed to weather and built on well ­drained ground makes an excellent shelter.
+\nA goat, when reared singly, can be housed in any building provided it is dry, free from draft and well ventilated. The space allowed should be 1·8 m x 1·8 m. A plain board, 28 cm wide and 2·5 cm thick with two circular holes sufficiently large for receiving two small galvanized iron pails, may be used in place of the manger or a trough for food. It should be raised 50 to 60 cm from the floor, supported on wooden or iron brackets fixed to the wall. These pails, one for water and the other for food, are preferred to the manger, as the accumulated residue of feed can be easily removed from them.
+\nIn the tropics because of high temperature, heavy rainfall and the susceptibility of goats-to parasitism, the most practical goat houses are those which are raised above the ground level, are well ventilated, and have long eaves to prevent heavy rain showers to splash in from the sides. The floor must be strong (wooden strips with small slits in between) and the roof material should provide effective insulation from the solar radiation. The roofing material would be made of bamboo or tree leaves or earthen tiles which are cheap and practical. Provision must be made for collection of dung and urine periodically."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/goh1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nShelter for Buck\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The buck should be housed separately. A single stall measuring 2·5 m x 2·0 m with the usual fittings for food and water would be suitable for the bucks. Two bucks should not be kept together, particularly during the breeding season, because they might fight."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nSpace for Goats in Stanchions and Confinement\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The size of the stanchion where the goat is kept should be 0·75 m wide and 1·2 m long. Goats kept longer in a pen should have a floor space of 2m2.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nLoose Stalls for Pregnant Does and Kids\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kids should be provided with separate loose stalls, away from adult females. The walls and doors of these stalls should be about 1·3 m high. A box barrel or a log is provided for exercise. One stall measuring 1·8 m2 can accommodate up to 10 kids. Such loose stalls are also suitable for goats at the time of kidding. All stalls should be provided with an enclosure in which the animals can be let loose during the day. This loose housing system reduces the housing cost and labour."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/goh2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nExercise Paddock for Stall-fed Goats\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An enclosure measuring I2 m x 18 m is adequate for 100 to 125 goats. Such an enclosure or exercise paddock should be well fenced with strong woven wires which should not be far apart near the bottom. The exercise paddocks should be made bigger than the enclosures and should have some shade trees if the stock is to be maintained constantly in confinement. An extra-strong woven wire should be used, as goats have the habit of climbing fences and also of rubbing their bodies against them. Barbed wire should not be used so as to avoid injury to the udder and teats. It will be good if a box of 1 m x 1 m and 60 cm high and a stationary steel-drum or a log of 30 cm x 2·4 cm size is provided for their exercise."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nElevated Platform\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In the tropics because of high temperature, heavy rainfall and the susceptibility of goats-to parasitism, the most practical goat houses are those which are raised above the ground level, are well ventilated, and have long eaves to prevent heavy rain showers to splash in from the sides. The floor must be strong (wooden strips with small slits in between) and the roof material should provide effective insulation from the solar radiation. The roofing material would be made of bamboo or tree leaves or earthen tiles which are cheap and practical. Provision must be made for collection of dung and urine periodically."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/go3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nFarming systems\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nTethering\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In this system goats are usually tied with a rope to a tree or on a peg and they will be able to browse from the surrounding. It is a convenient method from the standpoint of minimum labour input and utilization of feeds. This system is suitable for farmers with one or two goats."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nExtensive production\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This system can be adopted if grazing land is available where goats are allowed to browse on free range and provided with shelter during nighttime."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nIntensive production\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This method is suitable in urban areas where there is scarcity of land. In this method goats are confined exclusively in sheds and fed on leaves/grass and concentrates."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nSemi-intensive\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This method represents varying degrees of compromise between extensive and intensive production. In this system the goats are allowed to go out of the shed for a few hours daily."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nIntegration with cropping system\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In this case goats can be allowed to browse under plantation crops. It ensures increased fertility of land by return of dung and urine and controls the weeds. The manure output from an adult goat per day varies from 0.5 to 1 kg."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:layout_marginBottom="20dp"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,261 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.buffcare.Activity10">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="FEEDING\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="753dp"
+                android:padding="2dp"
+                android:text="Buffaloes are, like cattle, ruminants. This means that they utilize micro-organisms in the rumen to digest the feed. The feed eaten by ruminants are mainly of vegetable origin. The ruminant is an expert in converting cellulose and other fibrous materials into high quality milk and meat. Their digestive capacity is greater than the non-ruminant. Ruminants” chew the cud e.g. regurgitate the food to the mouth and chew it several times, thus helping the breakdown.
+
+            \nThe feed will enter the rumen compartment when swallowed by the animal. The rumen is an anaerobe environment, e.g. no oxygen is present. The feed is exposed to microbes such as bacteria, protozoa and fungi. These microbes attack the feed particles and by enzymatic action the components are broken down and used for their own metabolism, growth and propagation. The feed is masticated, regurgitated and exposed to microbes in the rumen. Large particles will become smaller and eventually be transported to the reticulum and further on. How long time a specific feed particle will stay in the rumen depends on size, palatability and fiber content of the feed. The buffalo has slower rumen movement than cattle, which leads to a slower rate of ingest outflow. The pH of the rumen content is similar to that of cattle, and it is affected in the same manner. Normal pH is between 6 and 7 depending on feed and time of feeding.
+
+            \nThe components of the feed can be divided into protein, energy (carbohydrates), fat, minerals and water. The breakdown and utilization of the different feed components are reviewed below.The waste end products of the microbial attack are methane and carbon dioxide which are eructated. Volatile fatty acids (VFA) of which acetic, prop ionic and butyric acids are the predominant ones, are together with ammonia absorbed by the animal through the rumen wall, and transported via the blood to, e.g. the liver and udder where they serve as building material for chemical compounds such as glucose, protein and fat (see Figure 10). Ammonia can be utilized directly by the rumen microbes to synthesize proteins. To be correct, one is actually not feeding the buffalo, but its’ microbes. Ruminants are entirely dependent on the function of the rumen microbes. Therefore, it is important to keep the rumen environment healthy. The easiest and best way is to feed a high amount of good quality roughage and a smaller amount of good quality concentrate."
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="\nProtein\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Almost all protein is attacked by the microbes and utilized in their metabolism and incorporated in the microbial mass. Microbial protein is of high quality and is absorbed as amino acids after being digested by gastric enzymes in the abomasums.
+
+\nAmmonia which is absorbed by the rumen wall and transported by the blood to the liver, is converted to urea. In case of protein deficiency, urea can be utilized by the rumen microbes as a non-protein nitrogen source to build protein. In this way nitrogen is circulated and efficiently used by the animal.
+
+\nProtein can be protected to withstand microbial attack. It is then called”by-pass protein”. By-pass protein is only degraded in the abomasums and small intestine where it undergoes enzymatic attack similar to that of mono-gastric animals. By-pass-protein is commercially available in some ready made concentrates and is usually given to high producers.\n"
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="\nCarbohydrate\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Carbohydrates are the predominant sources of energy for ruminants. Carbohydrates, or sugars, are the components of starch and fibers. Fiber is a common name for cell-wall components such as cellulose, hemi-cellulose and lignin. Starch can be degraded by animal gastric enzymes, whereas fibers cannot. Ruminants can utilize fibers to a larger extent than mono-gastric animals because of the ruminal microbes. However, lignin (wood-fiber) is not utilized. It is generally believed that buffaloes utilize fiber more efficiently than cattle do. The coefficient of digestion is 5-8% higher in buffaloes than in cattle.\n"
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="\nFat\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Fat is not as such required in other than very small amounts for the ruminant. However, what ever fat is present in the feed undergoes microbial attack and degradation. Unsaturated fatty acids are hydrolyzed and thus saturated. This is one of the reasons for the milk and body fat of the ruminant to be of equal composition, largely independent of the type of feed given. If the fat can in some form be protected from ruminal degradation, and instead be utilized in the lower intestinal tract, it may be used as an additional energy source. However, it may then alter the milk fat composition unfavorably. Too much unprotected fat in the diet depresses the ability of the microbes to ferment fibers, thus influencing the energy utilization negatively.\n"
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="\nNutrient  requirements  \n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="n order to utilize the animal, feed and economical resources as efficiently as possible, one must know the nutrient requirements of the animals. If an animal is wrongly fed this may lead to diseases, loss of production and thereby economical losses. By knowing what a specific animal needs, proper advice concerning purchase, cultivation and feeding systems can be given. Requirements for buffaloes are more or less the same as for cattle, therefore, nutrient requirement tables for dairy cattle may be used as a guidance, the farmer must observe the animals and change feeding system with the guidance of an extension officer if it seems\n"
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="\nEnergy\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Sources of energy are predominantly carbohydrates like fiber and starch and fat to a lesser extent. For buffaloes, fiber in the form of roughage is the most important and cheapest energy source. When calculating feed ratios for buffaloes the term Metabolizable Energy (ME) is used. This means the amount of energy that can be used by the animal for maintenance, growth, lactation etc. The gross energy (GE) of the feed is the amount present in the feed, when entering the animal, much of the energy is converted into heat which is lost through the thermal regulation. Energy is also lost in the feces and urine as well as in the methane and carbon dioxide gases.
+
+\nEnergy is measured in calories (cal) and joules (J) (1 cal equals 4.18 J). The most common is to use the term Mega calories (M cal) or Mega joules (MJ) which means a million cal or J. Another measurement is Total Digestible Nutrients (TDN) which is the sum of carbohydrates and fat in the diet. The unit for TDN is kg or gram.The energy ratio in the feed may be increased by adding fat in protected form, thus transferring the digestion from rumen to the intestinal tract. Feeding of protected fat (1 kg safflower oil) has proven to increase nutrient utilization. Feeding of unprotected fat in similar amounts has shown to adversely affect nutrient utilization.\n"
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="\nProtein\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Protein is required for growth, tissue repair and milk production among other things. Good sources of protein are leguminous forage, grain and oil-seed-cakes.
+\nThe protein requirements are measured in Crude protein (CP) in kg or gram.\n"
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cathtab1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cathtab2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="\nPractical feeding of the calf\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="*Calf mortality is very high, in India it is often 30-40% before 3 months of age, and in Italy the figures may be higher. This is caused by malpractice such as negligence, limited milk feeding, injuries and diseases. By increasing the amount of feed to the calf’s requirements and by practicing the following instructions the mortality can be decreased.
+
+\n*Colostrum is the most important and most suitable feed for the newborn calf. It contains all the nutrients needed (see Table 3) along with the vital antibodies. It is crucial for the survival of the calf that it receives colostrums during the first 12 hours of its life, the earlier the better. The calves should be given colostrums as long as the mother provides it e.g. 3 to 4 days. Any surplus colostrum can be frozen and then thawed and carefully heated to 390C. If no freezing facilities are available colostrums can stay fresh for a couple of days if it is cooled in a hygienic container. Colostrum can be fermented with living lactic acid culture. Fermented colostrums can be kept for at least a week and up to two weeks if cooling facilities are available.
+
+\n*If the calf is not allowed to suckle its mother it should be provided with colostrums as soon as possible after birth. If it is not possible to feed the calf directly after milking the buffalo, colostrums should be cooled in order to maintain hygienic quality. When it is time to feed the calf, the milk should be carefully heated to no more than 390C. Colostrums must never be boiled. By boiling the milk the antibodies are destroyed and hence, cannot be utilized as such by the calf.
+
+\n*The natural eating behavior of the calf is to suckle its mother often and to consume a small amount of milk at each suckling period. It is best for the calves reared under artificial conditions if their eating behavior is as”natural” as possible. Colostrum should be fed to the calf at least twice daily with equal intervals.
+
+\n*The calf should be trained to drink from a bucket. The easiest way to do this is to dip clean fingers into the milk and then allow the calf to lick and suck the fingers. The hand is then gradually drawn into the milk in the bucket while the calf is still suckling. Once the calf has learnt to drink it is easy to feed. The calf may need assistance for 5 days. There are special nipples which can be put in the bucket. The calf will suckle these, hence it will need less assistance from the trainer."
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cathtab3"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cathtab4"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cathtab5"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cathtab6"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cathtab7"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cathtab9"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

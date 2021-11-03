@@ -1,0 +1,288 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.catcare.Activity1">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CARE AND MANAGEMENT OF DAIRY ANIMAL"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CARE AND MANAGEMENT OF DAIRY ANIMAL \n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We must give good feeding and management for the calves so that they develop well and, useful for replacement stock. The feeding and care of the calf being before its birth .The dam should be dried 6-8 weeks before expected calving and should be fed well. Under fed animals will give weak and small calves.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="A) Early Management:\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Immediately after birth remove any mucous or phlegm from those nose and mouth.\n*Normally the cow licks the calf immediately the birth. This helps’ dry off the calf and helps in stimulating breathing and circulation. When the cows does not lick or in cold climate, rub and dry the calf with a dry cloth or gunny bag. Provide artificial respiration by compression and relaxing the chest with hands.\n*The Naval should be tied about 2-5 cm away from the body and cut 1cm below the ligature and apply Tr. Iodine or boric acid or any antibiotic.\n*Remove the wet bedding from the pen and keep the stall very clean and dry in condition.\n*The weight of the calf should be recorded.\n*Wash the cow’s udder and teats preferably with chlorine solution and dry.\n*Allow the calf to suckle the first milk of the mother i.e. Colostrums.\n*The calf will be standing and attempts to nurse within one hour. Otherwise help too weak calves.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cat_pic1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="B) Feeding of Calves:\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Feed colostrums i.e. the first milk of the cow for the first 3 days. The colostrums is thick and viscous. It contains higher proportions of Vitamin A Care and management of dairy animal 53 and proteins. The proteins are immune globulin which gives protection against many diseases. Colostrums contains anti trypsin which avoid digestion of immunoglobulin in the stomach and is absorbed as it is.\n*Whole milk should be given after 3 days it is better to teach to, drink the milk from the pail or bucket. Feed twice a day which should be warmed to body temperature. For weak calves feed thrice a day.\n*The limit of liquid milk feeding is 10 % of it’s body weight with a maximum of 5-6 liters per day and continue liquid milk feeding for 6.10 weeks.  Over feeding causes ‘Calf Scours’.\n*The milk replaces can be given to replace whole milk.\n*Give calf starter after one month of age.\n*Provide good quality green fodder and hay from 4‘h month afterwards.\n*Feeding of antibiotics to calves improves appetite, increases growth rate and prevents calf scours. E.g. aureomycin, Terramycin etc"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="MANAGEMENT  PRACTICES\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Identity the calf by tattooing in the ear at birth, and branding after one year.\n*Dehorn the calf within 7-10 days after birth with red hot Iron or caustic potash stick or electrical method.\n*Deworm the calf regularly to remove worms using deworming drugs. Deworm at 30 days interval.\n*Fresh water should be given from 2 -3 week onwards.\n*House the calves in individual calf pens for 3 months afterwards in groups. After six months males and females calves should be housed separately.\n*Weigh the calves at weekly interval upto 6 months arid at monthly interval afterwards to know the growth rate.\n*Mortality in calves is more in first month due to pneumonia. Diarrhea (calf scous) and worms.\n*House them under warm condition, clean condition to avoid above condition.\n*Extra teats beyond 4 should be removed at 1-2 months of age.\n*8-9 weeks of age, males should be castrated.\n*Keep the body clean and dry to avoid fungal infection.\n*Mineral-blocks should be provided, so that the calves lick and no changes for mineral deficiency.\n*Wean the calf from the mother and feed through pail feeding system."
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CARE AND MANAGEMENT OF HEIFER\nBetter Care and Management of heifer will give high quality replacement stock to the dairy farm. The following care and Management practices are recommended for a heifer.\n"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Feed the heifer sufficiently to produce normal growth. During the early stage relatively more protein than energy is needed. Most heifers grow well if excellent hay is given as much they can eat. The amount of growth depends upon the quality of forage fed.
+                              \n*The heifers should be provided with a dry shelter free from drafts. A loose housing system with a shelter open to one side is sufficient.
+                              \n*The size rather than the age of a dairy heifer at breeding time is important. Breeding under sized animals is never profitable. They may be stunted or slow to reach maximum size. Small heifers are more likely to have difficulty in calving. Though the heifer that is bred to calve at an older age yields higher milk yield in the first lactation, the total milk produced by such a cow will be less when compared to the heifers that freshens at an
+                              \n*The heifer should be growing and in good flesh at calving time. This is necessary so that she can produce milk at the most profitable level.
+Place the heifer in a separate shed about 6-8 weeks before she is due to calve.
+\n*Feed 2 - 3 kg of concentrate daily and all the forage she eats.
+\n*Before calving let the heifer becomes accustomed to handling and to the procedures used in the milking herd. Always handle her gently and with kindness.
+\n*Maintenance of health among heifers is very important for proper growth. The health among the heifers is maintained by hygienic housing, water balanced feeding and taking necessary preventive steps against common diseases.
+\n*Periodically the heifers in the herd should be checked for their proper growth and other progress. Animals lagging behind below the required standards should be removed from the herd.
+For the heifer the calving is first time and it may have difficulty in calving. So take extra care during calving."
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="CARE AND MANAGEMENT OF MILCH ANIMAL"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To get high milk during any lactation, the milch animal should be properly fed and necessary care and manage mental practices should be followed.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Provide green succulent forage together with leguminous hay or straw to the extent of animal can consume, so that all its maintenance requirements are met with through forage only. Extra concentrate at the rate of 1 kg for every 2 to 2.5 liters of milk should be provided. Salt and mineral supplements should be given to maintain the lactation.
+\n*Never frighten or excite the animals. Always treat them gently and with kindness.
+\n*With proper feeding and care, a cow will come to heat with in 16 days of calving. Do not with hold service unnecessarily after the signs of heat are noticed in a cow. The shorter the interval between calving, the more efficient the animal is as a milk producer. By maintaining proper records of breeding and calving of the animals will ensure a study flow of milk through out the year.\n*
+Individual attention to feed each animal according to its production is a must. For this purpose maintain individual production records.
+\n*Keep up regularity of feeding. Concentrate mix is fed before or during milking, when as roughages after milking. This practice will avoid dust in the shed.
+\n*Water should be provided to drink at will or at frequent intervals. It is more beneficial, if the animal is maintained on paddy straw as sole rough age.
+\n*Regularity in milking is essential. Increase of milk in the udder will reduce further secretion of milk. Milking thrice is better than twice since 10 - 15 % more milk can be produced.
+\n*Rapid, continuous, dry hand milking should be practiced without undue jerking of teats. milking should be done with whole hand, but not with thumb and index finger.
+\n*Cows should be trained to let down milk without calf suckling. This will held to wean the calves early.
+\n*Loose housing with shelter during hot part of the day should be provided. The animals will get maximum exercise in loose housing system.
+\n*Grooming of the cows and washing of the buffaloes before milking help in clean milk production. Daily brushing will remove loose hair an dirt from the coat. Grooming will also keep the animal hide pliable.
+\n*Wallowing of buffaloes or water spraying on their bodies will keeI6 the buffaloes comfortable especially in summer.
+\n*Common ailments should be properly detected and treated.
+\n*Common vices should be properly detected and care should be taken. Eg: Kicking, licking, suckling etc.
+\n*Provide at least 60 - 90 days dry period between calving. If the dry period is not sufficient, the milk yield is subsequent lactation will be reduced.
+\n*Vaccinate the cows- against important diseases and also guard against insects and pests.
+\n*Every animal should be numbered and particulars pertaining to milk, fat %, feed taken, breeding, drying and calving dates should be recorded.
+\n*Check for mastitis regularly."
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="CARE AND MANAGEMENT OF DRY AND PREGNANT ANIMAL\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The good care and manage mental practices given to pregnant animal will give good calf and also high milk yield during the successive lactation.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="CARE AND MANAGEMENT OF BULLS AND BULLOCKS\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Extra concentrate mix of 1.25 to 1.75 kg should be provided for pregnant animal as pregnancy allowance. Feed good quality of leguminous fodder. The animal should not be not - lean - not fat’ condition.
+\n*Provide clean drinking water and protection from thermal stress.
+\n*Do not allow them to mix with other animals that have aborted or that are suffering from or carriers of diseases like brucellosis.
+\n*Allow moderate exercise, which helps in calving normally.
+\n*Do not tire them by making long distances especially on uneven surfaces.
+\n*Do not allow them to fight with other animals and take care that they are not chased by dogs and other animals.
+\n*Avoid slippery conditions, which causes the animal to fall receiving fractures, dislocation etc.
+\n*If accurate breeding records are available, calculate the expected date of calving. Separate it one or 2 weeks before and shifted to individual parturition pens.
+\n*These pens are thoroughly cleaned and fresh bedding may be provided.
+\n*Feed one kg extra concentrates during last 8 weeks of gestation.
+\n*Feed laxative about 3 - 5 days before and after calving (Wheat bran 3 kg + 0.5 gm of Groundnut cake + 100 gm of mineral mixture of salt).
+\n*Symptoms of delivery may be observed i.e. swelling of external genetalia, swelling of udder; usually majority of animals will deliver without any help. If there is any difficulty, provide veterinary help.
+\n*After parturition external genital, flank should be cleaned arid protect the animal from chill and give warm wafer.
+\n*Placenta will normally leave the cow within 2 - 4 hours after calving. It not take the help of a veterinarian. Take care of the animal before calving from milk fever.
+\n*Give calcium supplement. Some times the udder will be swollen just before calving. Remove the milk partially. Take care, of the animal, if at all any abortion. Provide always free access to drinking water."
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="Care and management of bull\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The maintenance of breeding bulls in good condition and suitable for breeding is highly essential requirement for the success of breeding programme. A rising condition is better for reproduction than a falling one. Fat males may produce semen of inferior quality or they may be slow or fail at service. Breeding bull should receive plenty of exercise,\n will usually produce large ejaculation containing more sperms of higher activity. A breeding bull should housed separately known as “Bull Shed” with sufficient area of floor and proper covering. It is sound practice to provide cool conditions and adequate drinking water. A balanced ration should be fed containing adequate energy, proteins, minerals, and vitamins. Green fodder must be available both before and during breeding season.
+
+\nMost of the bulls are ferocious and so control them properly using nose rings etc. It is of great importance that males should be , fed regularly and not too much at one time, and too little at another. For bulls two mating a day has been found to be openings. Moderate exercise should be provided to keep the breeding bull in active and non fatty conditions. Regular grooming of the breeding bull be practiced. In buffalo bulls regular shaving may be practiced."
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="CARE AND MANAGEMENT OF BULLOCK\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bullocks are normally used for agricultural operations and or transport purpose. Some bullocks are ferocious and so control them properly with nose rope or nose rings. The hooves of the bullocks should be provided with metal shoes to protect the hooves from wear and tear.
+The working hours for bullocks are recommended as follows:\n
+   Normal Work - 6 hours of carting or 4 hours of ploughing. \nHeavy Work - 8 hours of carting or 6 hours of ploughing
+Sufficient roughages and 1-2 kg of concentrates may be provided for feeding of bullocks during break period in works, the animal may be left for free grazing. The bullocks are housed in separate sheds with sufficient space and protection from hot and cool conditions. Free access to drinking water is essential. Regular grooming of animals should be practiced."
+                android:textColor="#424949"
+                android:layout_marginBottom="5dp"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

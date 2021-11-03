@@ -7,14 +7,17 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.sandydalvi.agroapp.IntroActivity;
 import com.sandydalvi.agroapp.MainActivity;
 import com.sandydalvi.agroapp.R;
+import com.sandydalvi.agroapp.trading.account.LoginActivity;
 
 public class OnBoardingFragment3 extends Fragment {
 
@@ -35,7 +38,7 @@ public class OnBoardingFragment3 extends Fragment {
         skip3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getActivity(), MainActivity.class);
+                Intent intent=new Intent(getActivity(), IntroActivity.class);
                 startActivity(intent);
             }
         });
@@ -43,7 +46,7 @@ public class OnBoardingFragment3 extends Fragment {
         fb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getActivity(),MainActivity.class);
+                Intent intent=new Intent(getActivity(), IntroActivity.class);
                 startActivity(intent);
 
 

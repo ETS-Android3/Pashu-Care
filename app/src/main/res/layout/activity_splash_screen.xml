@@ -26,7 +26,7 @@
             android:id="@+id/logo"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/farm_icon"
+            android:src="@drawable/livestock"
             android:elevation="2dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +42,7 @@
             android:elevation="2dp"
             android:fontFamily="@font/audiowide"
             android:gravity="center_horizontal"
-            android:text="AGRO FARM"
+            android:text="PASHU-CARE"
             android:textColor="@color/black"
             android:textSize="25sp"
             android:textStyle="bold"
@@ -59,7 +59,7 @@
             android:layout_marginTop="20dp"
             android:elevation="2dp"
             android:gravity="center_horizontal"
-            android:text="Makes Farming easy"
+            android:text="Makes Animal husbandry easy"
             android:textColor="#F47B08"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -82,12 +82,14 @@
         app:layout_constraintTop_toBottomOf="@+id/app_name"
         app:layout_constraintVertical_bias="0.153"
         app:lottie_autoPlay="true"
-        app:lottie_rawRes="@raw/farmers" />
+        app:lottie_rawRes="@raw/cow_js" />
 
     <com.cuberto.liquid_swipe.LiquidPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

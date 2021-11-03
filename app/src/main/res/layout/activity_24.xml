@@ -1,0 +1,998 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.hencare.Activity24">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nCOMMON VIRUS DISEASE OF POULTRY\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ranikhet disease, also known in the West as Newcastle disease is a contagious and highly fatal daises of flows. In spite of the notable work done towards its control, this disease still ranks as one of the most serious virus diseases of poultry. The disease occurs in almost all countries and usually assumes a server form affecting birds of all ages. Mortality in flows varies from 50 to 100 per cent.
+\nRanikhet disease is largely a disease of flows, but it also effects turkeys, pigenosn, grows, ducks, geese, koel pheasants, guinea-flows, partridges and doves. hedgehogs have been suspected as reservoirs of the disease. The disease is also suspected to cause conjunctivitis among laboratory workers and persons handling infected birds.\n"
+                android:textColor="#000000"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nSymptoms\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The symptoms vary according to the age of the affected birds. The first symptoms usually observed in young birds are sneezing, gasping and often droopiness. It is in this stage of the disease that the manifestations rather closely resemble those of infections bronchitis. Within a short time after appearance of respiratory symptoms, deaths occur in a flock in quick succession and in increasing numbers from day to day.
+Among growing birds and in adult sudden deaths occur in a dew instances, and are followed by a number of birds showing respiratory symptoms. The affected birds are full and depressed with ruffled feathers. These symptoms are accompanied by diarrhea, characterize by the passing of a watery stool with an offensive smell. There is profuse salivation. The saliva often accumulates in the mouth and obstructs respiration, which results in the production of gurgling disused birds may be soft - shelled and deformed. In turkeys the disease runs a very mild course. In adults, in particular, it may pass unnoticed except for some dullness, loss of appetite and other minor symptoms.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nTreatment and Prevention\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At present there is no effective treatment of any value. Proper housing and general good care are indicated in an effort to shorten the duration and severity of the infection.
+\n\nAn early recognition of the disease and application of struck sanitary measures are of great value in the control of the disease. Some important measures for its prevention are ; slaughtering of all apparently ailing birds, segregating of in - contact in group of 10 to 15 each; removal of all infective materials such as droppings, residues of poultry cleanliness ; and provision of separate attendants for each group of birds.
+\nThe poultry farm should be at a distance from place of traffic. All newly purchased birds should be kept in segregation from not less than 10 days before taking them into the farm. The poultry runs should be ploughed from time to time and lime applied thereon as a general disinfectant. As far as possible the pens and runs should be made inaccessible to free - flying birds by providing a barrier of wire - netting.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nControl\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Control of Ranikhet diseases can be effect with judicious application of sanitary and vaccination measures. The possibility of entry and spread of infection is considerably reduced through the maintenance of flock on deep little system and stopping all unauthorized entries, even of human beings, into the battery brooders. Disposal of fowl carcasses by burning or deep brutal to reduce the scope of carrion-eating birds like crows, kites and vultures perching near fowl pens or poultry farms helps to resume the hazards of this infection. Two types of vaccines are available in India, one for the adult birds an another for younger birds or body chicks. The virus strain for Ranikeht disease vaccine used for adult birds age over weeks was evolved at the Indian veterinary Research Institute. The vaccine consists of freeze - dried virus grown in chick embryos. Vaccination of birds 6 weeks old and above confers immunity for 1 to 3 years. Care should be taken to vaccinate bird’s not carrying heavy coccidian infection. Birds with heavy worm infection or coccidiosis are not protected even with a good vaccine. There are sometimes complications side reactions following vaccination. There are sometimes complications side reactions following vaccination with 'Mukteswar' strain of Ranikhet disease vaccine. These consist on inco-ordination of limbs and sometimes paralysis in 1 to 3 per cent to the vaccinated birds. The reactions may become more acute if the birds are affected with roundworms, coccidiosis or are weak on account of malnutrition.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nVaccination programme for layer type chicken\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hentab6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nDeworming\n"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Birds should be dewormed starting from one week prior to R2B/RDVK vaccination and repeated at 3-week intervals so as to give a total of 4 dewormings before housing at 18 weeks of age. Piperazine compounds, albendazole, mebendazole etc. can be used against round worms. Against tape worms, Niclosamide, Praziquintel, Albendazole can be used.
+While medicating through drinking water, it should be done by mixing the required quantity of medicine in the quantity of water that chicks normally consume in 4 hours time (say approximately 6 litres per one hundred, 6 week-old chicks, per day). Additional water should be given only when all the medicated water is consumed by the chicks.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nEctoparasites\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The birds should be dusted or dipped and houses fumigated as soon as there is indication of ectoparasites. The following may be used for dusting and dipping. Dipping should be avoided on rainy days. Head dipping has to be avoided.
+
+\n*Tick tox – synthetic pyrithrine compound. Dose – as per manufacturer’s instructions
+\n*Butox – Deltamethrin compound. Dose – as per manufacturer’s instructions
+\n\nIn addition to these, general measures of sanitation such as keeping young stock away from adult stock, keeping the poultry houses and equipments clean, prohibiting visitors into the poultry house, proper disposal of dead birds, prevention of entry of rodents and other birds into the pen and periodical culling will greatly help in checking diseases.
+ (Source: Dr.Acharya, Handbook of Animal Husbandry)"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nDisease Management\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nDisease, etiological agent and species affected\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\n1. Fowl cholera- (P.multocida)\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poultry, Turkey and Duck\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nImportant symptoms\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In acute cases birds may die without showing any symptom. In less severe form breathing rapid- open beak, feather ruffled, comb and wattle become cyanotic. There may be yellowish diarrhoea. In chronic form swollen comb and wattle, joints hot and painful. In duck acute haemorrhagic enteritis and oozing of blood from oral cavity noticed. Sudden death will be occurring.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nSpecimens to be collected\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood smear from ailing bird, spleen, liver, lung etc. from sacrificed or dead bird in separate cover (on ice), long bones from putrefied carcass in charcoal packing. In chronic case smear from wattle.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nDiagnosis\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Demonstration of organism in blood smear, isolation of organism from internal organs, isolation of the organism from long bone, in chronic case it is difficult to demonstrate the organism in blood. Smear from wattle is used, biological method using pigeon.
+\nControl / Treatment
+\nTreatment: Sulpha drugs and TMP combination, Enrofloxacin are effective. Drugs like Flamequin, Ampicillin, Chloramphenicol, Chlortetracycline and Novobiocin are also used.
+\n1. Killed vaccine\n "
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\n2.  Pullorum disease -(Salmonella pullorum)\nPoultry "
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nImportant symptoms\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chicks hatched from infected egg, moribund or dead chick may be seen in the incubator. Sometimes disease is not seen for 5-10 days. Peak mortality during second or third week. Affected birds may exhibit a shrill cry when voiding excreta, which is white or greenish brown. Infection spread within the flock for a long time without any distinct signs. Reduction in egg production, fertility and hatchability.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nSpecimens to be collected\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#424949"
+                android:text="Ailing bird or freshly dead birds, or spleen, liver and intestine on ice from dead birds.\n"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nDiagnosis\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Isolation and identification of organism from diseased birds, whole blood agglutination using coloured antigen (not for turkey), tube agglutination test, ELISA, post mortem lesions. In adult, abnormal ovary with misshapen, discoloured ova, pedunculated with thickened wall.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nControl / Treatment\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No treatment is likely to effect complete elimination of carrier from infected birds.
+Sulphadiazine, Sulphamerazine, sulphapyrazine, Sulphamethazine are the most effective in chicken (not in turkey poults). Furazolidone is effective. Also chloramphenicol, colistin and apromycin are effective. No vaccination practised and all positive birds may be disposed off by slaughter. Birds recently vaccinated with S. gallinarum (9R) may give low titre. Since Tran ovarian transmission of organism is there, only eggs from salmonella free flock should be used for hatching.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\n3. Fowl typhoid - (S.gallinarum)\nPoultry and Turkey"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nImportant symptoms\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chicks hatched from infected egg, moribund or dead chick may be seen in the incubator. Sometimes disease is not seen for 5-10 days. Peak mortality during second or third week. Affected birds may exhibit a shrill cry when voiding excreta, which is white or greenish brown. Infection spread within the flock for a long time without any distinct signs. Reduction in egg production, fertility and hatchability. Birds show diarrhea and greenish faeces and systemic disturbances.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nSpecimens to be collected\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ailing bird or fresh carcass or liver, spleen and intestine from freshly dead birds by special messenger on ice\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nDiagnosis\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Isolation and identification of organism, tube and plate test, clinical observation and necropsy findings (Bronze liver\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nControl / Treatment\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sulpha-TMP drugs, Quinelone group are used. Nitrofurans (Furazolidone) are used with some success.
+\n1. Killed vaccine,
+\n2. Live vaccine (9 R strain).
+\nDrugs when used as prophylactic agent, 10 days withdrawal period before slaughter.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\n4. Paratyphoid   infection \nof birds with Salmonella other than - S. Pullorum and  S.gallinarum
+      Poultry, Turkey, Ducks and Goose\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nImportant symptoms\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chicks hatched from infected egg, moribund or dead chick may be seen in the incubator. Sometimes disease is not seen for 5-10 days. Peak mortality during second or third week. Affected birds may exhibit a shrill cry when voiding excreta, which is white or greenish brown. Infection spread within the flock for a long time without any distinct signs. Reduction in egg production, fertility and hatchability.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nSpecimens to be collected\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Two ailing birds Internal organs in sterile vials, by special messenger on ice.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nDiagnosis\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Isolation and identification of organism, clinical observation and autopsy findings,
+serological tests.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nControl / Treatment\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Furazlidone, injectable gentamicin, spectinomycin, and sodium nalidixate are the drugs of choice. Bacterin and attenuated live vaccines are used.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\n4. Paratyphoid   infection\nof birds with Salmonella other than - S. Pullorum and  S.gallinarum
+      Poultry, Turkey, Ducks and Goose\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nImportant symptoms\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chicks hatched from infected egg, moribund or dead chick may be seen in the incubator. Sometimes disease is not seen for 5-10 days. Peak mortality during second or third week. Affected birds may exhibit a shrill cry when voiding excreta, which is white or greenish brown. Infection spread within the flock for a long time without any distinct signs. Reduction in egg production, fertility and hatchability.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nSpecimens to be collected\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Two ailing birds Internal organs in sterile vials, by special messenger on ice.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nDiagnosis\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Isolation and identification of organism, clinical observation and autopsy findings,
+serological tests.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nControl / Treatment\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Furazlidone, injectable gentamicin, spectinomycin, and sodium nalidixate are the drugs of choice. Bacterin and attenuated live vaccines are used.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\n5.Collibacillosis\nPoultry, Turkey, Duck\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nImportant symptoms\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In acute form, symptoms resemble fowl cholera or fowl typhoid.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nSpecimens to be collected\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ailing bird or internal organs in sterile containers through special messenger on ice.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nDiagnosis\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms, isolation and identification of organism, PM lesions, pericarditis, peritonitis, air saculitis, perihepatitis, septicaemic carcass with liver, spleen, lung, kidney dark and congested.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nControl / Treatment\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faecal contamination of hatching eggs reduced by fumigating or disinfecting eggs within 2 hours of laying. Antibiotic administration after studying the antibiogram. Furazolidone is fed (0.04%) for 10 days and chlortetracycline in water (600 mg/5 L) for 5 days. Inactivated vaccine from 02:K1 and 078:KSO strains are effective. For ducks, inactivated vaccine prepared from 078 strains is effective.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\n6.Infectious coryza - (Haemophiluspara gallinarum)\nChicken\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nImportant symptoms\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#424949"
+                android:text="Affects  upper respiratory tract, sero mucoid nasal and occular discharges and facial oedema, conjunctivitis with closed eyes.\n"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nSpecimens to be collected\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ailing bird or trachea and lungs in sterile containers on ice.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nDiagnosis\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Isolation and identification.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nControl / Treatment\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sulpha drugs plus TMP, streptomycin, tetracycline, chloramphenicol, quinolone 2nd   generation.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\n7. Chronic - ( respiratory disease (CRD) Mycoplasma gallisepticum)\nChicken and Turkey\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nImportant symptoms\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nasal discharge, shaking of head, coughing, swelling of the orbital sinuses and tracheal rales. Loss of weight, reduction in egg production and fertility, mortality low.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nSpecimens to be collected\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ailing bird or trachea, air sac, turbinate and lung in sterile container from dead bird. Diagnosis
+\nSymptoms, isolation and identification of organism, rapid serum plate test, HI test, ELISA.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nControl / Treatment\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chlortetracycline, tylosin, streptomycin, erythromycin or lincomycin can be tried. But some strains are resistant to tylosin, streptomycin, erythromycin or spiromycin. Dipping of egg prior to hatching in tylosin or chlortetracycline is advised for controlling the infection.
+
+\nMG bacterin with oil emulsion adjuvant.
+\nLive vaccine F strain of MG can be used.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\n8. Gangrenous dermatitis - (Clostridium septicum, C. perfringes )\nPoultry\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nImportant symptoms\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Varying degree of depression, in coordination, leg weakness, ataxia, dark moist areas of skin devoid of feathers, overlying wings, breast, abdomen and leg, extensive blood tinged edema with or without gas is present beneath the affected skin.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nSpecimens to be collected\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ailing birds, swab collected from affected area.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nControl / Treatment\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chlortetracycline, tylosin, streptomycin, erythromycin or lincomycin can be tried. But some strains are resistant to tylosin, streptomycin, erythromycin or spiromycin. Dipping of egg prior to hatching in tylosin or chlortetracycline is advised for controlling the infection.
+
+\n*MG bacterin with oil emulsion adjuvant.
+\n*Live vaccine F strain of MG can be used.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\n8. Gangrenous dermatitis - (Clostridium septicum, C. perfringes )\nPoultry\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nImportant symptoms\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Varying degree of depression, in coordination, leg weakness, ataxia, dark moist areas of skin devoid of feathers, overlying wings, breast, abdomen and leg, extensive blood tinged edema with or without gas is present beneath the affected skin.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nSpecimens to be collected\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ailing birds, swab collected from affected area.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nDiagnosis\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clinical symptoms and lesions, isolation and identification of organism\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nControl / Treatment\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No treatment is completely successful. Chlortetracycline, Oxytetracycline, Bacitracin, penicillin, copper sulphate in drinking water. Furaxone in feed\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nS9.  Psittacosis/Ornithosis  - (Chlamydia psittaci)\nDomestic poultry, turkey and ducks. Transmissible to man."
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nImportant symptoms\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ruffled plumage, nasal discharge, watery greenish diarrhea, pasting of feathers, wasting of pectoral muscles, nervous symptoms, respiratory symptoms.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nSpecimens to be collected\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Two ailing birds, impression smears from cut surfaces of liver, spleen, air sac impression smears\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nDiagnosis\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clinical symptoms, P.M.findings, microscopical examination, impression smears, after modified ZN staining isolation and identification of the organism, CFT.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nControl / Treatment\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Broad-spectrum antibiotics, chlortetracycline 500-800 g/tonne of feed for 3 weeks. Doxycycline also tried.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

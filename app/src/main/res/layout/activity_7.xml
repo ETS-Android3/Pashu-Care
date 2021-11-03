@@ -1,0 +1,354 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.catcare.Activity7">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CATTLE  REPRODUCTION\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selection for breeding\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Heifers\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nHeifer is a young female cow before she has had her first calf.
+
+\nHeifers should be selected on the basis of the potential of the sire and milk production of the dam.
+
+\nThe heifers should have proper growth, good health and be free from genetic abnormalities.
+
+\nHeifers, which have conceived within 24 months of age alone, may be retained."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/heifers"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nCows\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Most important economic trait to be looked into, while selecting a cow is 'milk production'. The present average daily milk production of the cross breed cows is around 5.5 liters. For economic milk production a cow producing not less than 2500 kg milk in 305 days lactation period is desirable. In general, selecting a newly calved cow yielding ten liters per day may have 2000-2500 kg lactation yield and cow yielding 15 liters per day initially may have a lactation yield of 3000 kg. A peak yield of at least 12 kg milk per day can be used as a criterion for this. Age at first calving should be less than 3 years. The interval between two successive calving should be 12 to 15 months. The cow should not have any physical deformity and should possess dairy conformation like well developed udder, prominent milk vein, squarely placed teats, ease in milking and good temperament. Old and unproductive cows are to be replaced by young cows. The calves reared in the farm itself are usually used for replacement. Normally, 20 percent of the stock has to be replaced each year. When calves are insufficient or when the general performance of the herd is poor, cows from outside can be purchased and added to the herd.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cows_repo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nBulls\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nBulls contribute 50 percent of the inheritance to the next generation. Most of the genetic improvement in a population comes through proper bull selection. It is not very practicable to have intense selection of the females for breeding i.e., almost all the heifers will have to be reared and used for breeding in a situation where age at first calving and calving interval are not optimum. Hence most care is to be given for bull selection. To achieve the goal of average 305 days milk yield of 2500 kg/lactation from the present 1600 kg for crossbreds in Kerala, the bulls used should be proven bulls or of high pedigree. The young bulls used for breeding should be from dams with lactation milk production not less than 4500 kg and bulls with higher sire index. If 1000 cows with this production performance are available in the State, this bull dam selection becomes feasible. Other economic traits like milk fat and SNF, age at first calving, calving ease, incidence of diseases etc., should be included in evaluation.
+
+The farmers should be aware of the quality of bull used for breeding and all Artificial Insemination centres/bull stations should display the details of breeding value of the bulls used. Breeding value is generally expressed as a deviation from the population average. It is to be borne in mind that pedigree selection is the most important of all kinds of selection. Progeny testing is the most accurate method and as a rule bulls for progeny testing are selected based on the pedigree. Selection should be continuous and applied in all generations. Any slack in selection will result not only in the stoppage of genetic improvement but also in creating negative trends.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/bull_repo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nCATTLE BREEDING\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cattle’s rearing is an important subsidiary to agriculture in India. It has been playing a significant role in India's rural economy. Despite its vast cattle population, India's place regarding cattle productivity is at the rock-bottom vis-a-vis other countries, especially western ones. One of the major reasons for this is the lack of good breeding stock as well as technologies in our villages. The follwing poits describes different aspects of scientific breeding of cattle and buffaloes.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nI. Introduction\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reproduction is an important consideration in the economics of cattle production. In the absence of regular breeding and calving at the appropriate time cattle rearing will not be profitable. A healthy calf each year is the usual goal. This is possible only by increasing the reproductive efficiency of the animals.
+
+Successful reproduction encompasses the ability to mate, the capacity to conceive and to nourish the embryo and deliver the viable young ones at the end of a normal gestation period. In fact, interruption in this chain of events leads to failure of the cow either to conceive or the embryo to die or to have a premature delivery of the foetus.
+
+The reproductive efficiency is a complex phenomenon controlled by both genetic and non-genetic factors, the non- genetic factors being climate, nutrition, and level of management. The reproductive efficiency varies not only between species and breeds but also among the animals within the Same breed. Even the best feeding and management can not coax performance beyond the genetic limit of an inferior animal. Improving the genetic merits of livestock populations is important at all levels of management. A sound breeding programme is a necessary part of the total animal production system. It is absolutely imperative to improve the productive capacity and physical appearance of the animal population.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nII. Factors Affecting Breeding Efficiency\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The factors which influence the breeding efficiency of cattle are as follows:\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\n1. Number of ova\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The first limitation on the breeding efficiency of fertility of an animal is the number of functional ova released during each cycle of ovulation. Ovulation is the process of shedding of ovum from the Graffian follicle. In the case of cow, usually a single ovum is capable of undergoing fertilization only for a period of 5-10 hours. Therefore, the time of mating in relation to ovulation is important for effective fertilization.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\n2. Percentage of fertilization\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The second limitation is fertilization of ova. Failure to be fertilized may result from several causes. The spermatozoa may be few or low in vitality. The service may be either too early or too late. so that the sperms and eggs do not meet at the right moment, to result in fertilization.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\n3. Embryonic death\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From the time of fertilization till birth, embryonic mortality may occur due to a variety of reasons. Hormone deficiency or imbalance may cause failure of implantation of fertilized ova which die subsequently. Death may occur as a result of lethal genes for which the embryos are homozygous. Other causes may be accidents in development, over-crowding in the uterus, insufficient nutrition or infections in tile uterus.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\n4. Age of first pregnancy\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Breeding efficiency may be lowered seriously by increasing the age of first breeding. Females bred at a lower age are likely to appear stunted during the first lactation, but their mature size is affected little by their having been bred early.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\n5. Frequency of pregnancy\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The breeding efficiency can be greatly enhanced by lowering the interval between successive pregnancies. The wise general policy is to breed for the first time at an early age and to rebreed at almost the earliest opportunity after each pregnancy. In this way the lifetime efficiency is increased. Cows can be rebred in 9-12 weeks after parturition.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\n6. Longevity\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The length of life of the parent is an important part of breeding efficiency, because the return over feed cost is greater in increased length of life. Also, it affects the possibility of improving the breed. The longer the life of the parents, the smaller the percentage of cows needed for replacement every year.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nIII. Management Practices to Improve Breeding Efficiency\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Some of the management suggestions which will tend to improve breeding efficiency of cattle are listed below.
+
+\n*Keep accurate breeding records of dates of heat, service and parturition. Use records in predicting the dates of heat and observe the females carefully for heat.
+\n*Breed cows near the end of heat period.
+\n*Have females with abnormal discharges examined and treated by veterinarian.
+\n*Call a veterinarian to examine females not settled after three services.
+\n*Get the females checked for pregnancy at the proper time after breeding.
+\n*Buy replacements only from healthy herds and test them before putting them in your herd.
+\n*Have the females give birth in isolation, preferably in a parturition room and clean up and sterilize the area once parturition is over.
+\n*Follow a programme of disease prevention, test and vaccination for diseases affecting reproduction and vaccinate the animals against such diseases.
+\n*Practice a general sanitation programme.
+\n*Supply adequate nutrition.
+\n*Employ the correct technique.
+\n*Provide suitable shelter management.
+\n*Detect silent or mild heat, by using a teaser bull."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,5 +1,609 @@
 <resources>
     <string name="app_name">Agro App</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Database nodes -->
+    <string name="node_users">users</string>
+    <string name="node_posts">posts</string>
+
+    <string name="fragment_search">Search</string>
+    <string name="fragment_watch_list">WatchList</string>
+    <string name="fragment_post">Post</string>
+    <string name="fragment_account">Account</string>
+
+    <string name="prefernces_city">prefernces_city</string>
+    <string name="prefernces_country">prefernces_country</string>
+    <string name="prefernces_state">prefernces_state</string>
+
+    <!-- Database field names -->
+
+    <string name="dialog_select_photo">SelectPhoto</string>
+
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="cow_1_tit">Gir</string>
+    <string name="cow_1_desc">This breed is otherwise known as Bhadawari, Desan, Gujarati, Kathiawari, Sorthi, and Surati.\n
+        Originated inGir forests of South Kathiawar in Gujarat also found in Maharashtra and adjacent Rajasthan.\n
+        Basic colours of skin are white with dark red or chocolate-brown patches or sometimes black or purely red.\n
+        Horns are peculiarly curved, giving a ‘half moon’ appearance.\n
+        Milk yield ranges from 1200-1800 kgs per lactation.\n
+        Age at first calving 45-54 months and inter calving period from 515 to 600 days.\n
+        This is known for its hardiness and disease resistance.</string>
+
+    <string name="cow_2_tit">Red Sindhi</string>
+    <string name="cow_2_desc">This breed is otherwise called as Red Karachi and Sindhi and Mahi.
+        Originated in Karachi and Hyderabad (Pakistan) regions of undivided India and also reared in certain organized farms in our country.
+        Colour is red with shades varying from dark red to light, strips of white.
+        Milk yield ranges from 1250 to 1800 kg per lactation.
+        Age at first calving 39-50 months and inter calving period from 425-540 days.
+        Bullocks despite lethargic and slow can be used for road and field work.</string>
+
+    <string name="cow_3_tit">Sahiwal</string>
+    <string name="cow_3_desc">Originated in Montgomery region of undivided India.
+        This breed otherwise known as Lola (loose skin), Lambi Bar, Montgomery, Multani, Teli.
+        The best indigenous dairy breed.
+        The colour is reddish dun or pale red, sometimes flashed with white patches.
+        Heavy breed with symmetrical body having loose skin.
+        The average milk yield of this breed is between 1400 and 2500 kg per lactation.
+        Age at first calving ranges from 37 to 48 months and the calving interval is 430 to 580 days.
+    </string>
+
+    <string name="cow_4_tit">Hallikar</string>
+    <string name="cow_4_desc">Originated from the former princely state of Vijayanagarm, presently part of Karnataka.
+        The colour is grey or dark grey.
+        They are compact, muscular and medium size animal with prominent forehead, long horns and strong legs.
+        The breed is best known for its draught capacity and especially for its trotting ability.</string>
+
+    <string name="cow_5_tit">Amritmahal</string>
+    <string name="cow_5_desc">Originated in Hassan, Chikmagalur and Chitradurga district of Karnataka.
+        The Maharajahs of Mysore developed this breed.
+        Amiritmahals are grey cattle but their shade varies from almost white to near black.
+        The muzzle, feat and tail are usually black.
+        Horns are long and end in sharp black points.</string>
+
+    <string name="cow_6_tit">Khillari</string>
+    <string name="cow_6_desc">Originated fromSholapur and Sitapur districts of Maharashtra.
+        Closely resembles Hallikar breed.
+        Grey-white in colour. New borns have dusty red colour which disappears in couple of months.
+        Long horns turn forwards in a peculiar fashion. The horns are generally black, sometimes pinkish.
+        Bullocks are fast and powerful.</string>
+
+    <string name="cow_7_tit">Kangayam</string>
+    <string name="cow_7_desc">Also known as kongu and konganad.
+        Originated in Kangayam, Dharapuram, Perundurai, Erode,
+        Bhavani and part of Gobichettipalayam taluk of Erode and Coimbatore district.
+        Cows are grey or white. However, animals with red, black, fawn and broken colours are also observed.
+The eyes are dark and prominent with black rings around them.
+Moderate size with compact bodies.</string>
+
+    <string name="cow_8_tit">Bargur</string>
+    <string name="cow_8_desc">Found around Bargur hills in Bhavani taluk of Erode district.
+Developed for work in uneven hilly terrains.
+Bargur cattle are of brown colour with white markings. Some white or dark brown animal are also seen.
+Animals are well built, compact and medium in size.
+Known for their speed and endurance in trotting.
+Cautious in behaviour and tends to remain away from strangers.</string>
+
+    <string name="cow_9_tit">Umblachery</string>
+    <string name="cow_9_desc">It is otherwise called asJathi madu, Mottai madu, Molai madu, Therkathi madu.
+Originated inThanjavur, Thiruvarur and Nagappattinam districts of Tamil Nadu.
+Suitable for wet ploughing and known for their strength and sturdiness.
+    The legs have white markings below the hocks like socks.
+The practice of dehorning of bullocks is peculiar in Umblachery cattle.
+        Unlike in other breeds the bullocks are dehorned.</string>
+
+    <string name="cow_10_tit">Pulikulam</string>
+    <string name="cow_10_desc">
+        This breed is commonly seen in cumbum valley of Madurai district in Tamilnadu.
+        Also known as Jallikattu madu, kidai madu, sentharai.
+        Small in size, usually grey or dark grey with farm markings.
+        Presence of reddish or brownish spots in muzzle, eyes, switch and back is the characteristic feature of this breed.
+        They have the typical backward curving horns of Mysore type cattle.
+    </string>
+
+    <string name="cow_11_tit">Tharparkar</string>
+    <string name="cow_11_desc">
+        Originated inTharparkar district (Pakistan) of undivided India and also found in Rajasthan.
+        Body colour is white or light grey.
+        The bullocks are quite suitable for ploughing and casting and the cows yield 1800 to 2600 kg of milk per lactation.
+        Age at first calving ranges from 38 to 42 months and inter calving period from 430 to 460 days.
+    </string>
+
+    <string name="cow_12_tit">Hariana</string>
+    <string name="cow_12_desc">
+        It was originated from Rohtak, Hisar, Jind and Gurgaon districts of Haryana and also popular in Punjab, UP and parts of MP.
+        Horns are small.
+        The bullocks are powerful work animals.
+        Hariana cows are fair milkers yielding 600 to 800 kg of milk in lactation.
+        The age at first calving is 40 to 60 months and calving interval is 480 to 630 days.
+    </string>
+
+    <string name="cow_13_tit">Kankrej</string>
+    <string name="cow_13_desc">
+        It is otherwise called as Wadad or Waged, Wadhiar.
+        Originated from Southeast Rann of Kutch of Gujarat and adjoining Rajasthan (Barmer and Jodhpur district).
+        The horns are lyre-shaped.
+        Colour of the animal varies from silver-grey to iron-grey or steel black.
+        The gait of Kankrej is peculiar called as 1 ¼ paces (sawai chal).
+        Kankrej is valued for fast, powerful, draught cattle. Useful in ploughing and carting.
+        The cows are good milkers, yielding about 1400 kg per lactation.
+    </string>
+
+    <string name="cow_14_tit">Ongole</string>
+    <string name="cow_14_desc">
+        Otherwise known as Nellore.
+        Home tract is Ongole taluk in Guntur district of Andhra Pradesh.
+        Large muscular breed with a well developed hump.
+        Suitable for heavy draught work.
+        White or light grey in colour.
+        Average milk yield is 1000 kg per lactation. Age at first calving is 38 to 45 months and the intercalving period is 470 days.
+        Exported to south East Asian and American countries for development of meat cattle.
+    </string>
+
+    <string name="cow_15_tit">Krishna Valley</string>
+    <string name="cow_15_desc">
+        Originated from black cotton soil of the water shed of the river Krishna in Karnataka and also found in border districts of Maharastra.
+        Animals are large, having a massive frame with deep, loosely built short body.
+        The bullocks of this breed are powerful animals useful for slow ploughing, and valued for their good working qualities.
+        The cows are fair milkers, average yield being about 900 kg per lactation.
+    </string>
+
+    <string name="cow_16_tit">Deoni</string>
+    <string name="cow_16_desc">
+        This breed otherwise known as Dongerpati, Dongari, Wannera, Waghyd, Balankya, Shevera.
+        Originated in Western Andra Pradesh and also found in Marathwada region of Maharashtra state and adjoining part of Karnataka.
+        Body colour is usually spotted black and white.
+Age at first calving ranges from 894 to 1540 days.
+Milk yield ranges from 636 to 1230 kg per lactation.
+Caving interval averages 447 days.
+Bullocks are suitable for heavy cultivation.
+    </string>
+
+    <string name="cow_17_tit">Jersey</string>
+    <string name="cow_17_desc">
+        It is developed in the Jersey Island, U.K.
+It is the smallest of the dairy types of cattle.
+In India this breed has acclimatized well and is widely used in cross breeding with indigenous cows.
+        The typical colour of Jersey cattle is reddish fawn.
+Dished fore head and compact and angular body.
+These are economical producers of milk with 4.5% fat.
+Average milk yield is 4500 kg per lactation.
+Age at first calving is 25 to 30 months and calving interval is 13 to 14 months.
+    </string>
+
+    <string name="cow_18_tit">Holstein Friesian</string>
+    <string name="cow_18_desc">
+        This breed was developed in the northern parts of Netherlands, especially in the province of Friesland.
+They are ruggedly built and they possess large udder.
+They are the largest dairy breed and mature cows weigh as much as 700kg.
+They have typical marking of black and white that make them easily distinguishable.
+The average production of cow is 6000 to 7000 kg per lactation. However, the fat content in their milk is rather low (3.45 per cent).
+Age at first calving is 29 to 30 months and calving interval is 13 to 14 months.
+    </string>
+
+    <string name="cow_19_tit">Brown Swiss</string>
+    <string name="cow_19_desc">
+        The mountainous region of Switzerland is the place of origin of Brown Swiss breed.
+It is famous in its home tract for its rugged nature and good milk production.
+Average milk yield is 5000 kg per lactation with 4% fat.
+The Karan Swiss is the excellent crossbred cattle obtained by crossing this breed with Sahiwal cattle at NDRI, Karnal.
+Age at first calving is 28 to 30 months and calving interval is 13 to 14 months.
+    </string>
+
+    <string name="cow_20_tit">Red Dane</string>
+    <string name="cow_20_desc">
+        Developed in Denmark.
+The typical body colour of this Danish breed is red, reddish brown or even dark brown.
+It is also a heavy breed; mature males weighing up to 950 kg and mature female weigh 600 kg.
+The lactation yield of Red Dane cattle varies from 3000 to 4000 kg with a fat content of 4 per cent and above.
+Age at first calving is 28 to 30 months and calving interval is 13 to 14 months.
+    </string>
+
+    <string name="cow_21_tit">Brown Swiss</string>
+    <string name="cow_21_desc">
+        The mountainous region of Switzerland is the place of origin of Brown Swiss breed.
+It is famous in its home tract for its rugged nature and good milk production.
+Average milk yield is 5000 kg per lactation with 4% fat.
+The Karan Swiss is the excellent crossbred cattle obtained by crossing this breed with Sahiwal cattle at NDRI, Karnal.
+Age at first calving is 28 to 30 months and calving interval is 13 to 14 months.
+    </string>
+
+    <string name="cow_22_tit">Ayrshire</string>
+    <string name="cow_22_desc">
+        Origin Ayrshire in Scotland is considered as most beautiful dairy breed. These are very active animals but hard to manage.
+They do not produce as much milk or butter fat (only 4%) as some of the other dairy breeds.
+The breed was also known as Dunlop cattle or Cunningham cattle.
+    </string>
+
+    <string name="cow_23_tit">Guernsey</string>
+    <string name="cow_23_desc">
+        Originated from Small island of Guernsey in France.
+Cherry red to brown in colour. Mahagony and white is a variation in colour.
+The milk has a golden colour due to an exceptionally high content of beta carotene which may help to reduce the risks of certain cancers.
+The milk also has a high butterfat content of 5% and a high protein content of 3.7%.
+Guernsey cows produce around 6000 kg per lactation.
+The Guernsey cow has many notable advantages for the dairy farmer over other breeds includes high efficiency of milk production,low incidence of calving difficulty and longevity.
+    </string>
+
+    //hens Info
+
+    <string name="hen_1_tit">Australorp</string>
+    <string name="hen_1_desc">These birds are known for their excellent egg production.\n
+        You’ll easily get 250 light brown eggs per year.\n
+        The record holding hen laid 364 eggs in a 365 day period,\n
+        without assistance of artificial lighting</string>
+
+    <string name="hen_2_tit">Barnvelder</string>
+    <string name="hen_2_desc">Barnvelders are named after the Dutch town of Barnveld.
+        They are a medium sized, dual-purpose bird. They are hardy and make good foragers.
+        They lay a fair number of dark brown eggs, are good winter layers, and have a calm disposition.</string>
+
+    <string name="hen_3_tit">Bielefelder</string>
+    <string name="hen_3_desc">The Bielefelder is a modern breed, developed in the early 1970s in Bielefeld,
+        Germany. Poultry breeder Gerd Roth used genetics from a number of breeds including the Cuckoo Malines,
+        Amrock, Wyandotte, and New Hampshire. The Bielefelder managed to retain the best qualities of all these
+        breeds. Consider this breed another example of extraordinary German engineering. They check off all the
+        boxes on your “perfect chicken” wish list.</string>
+
+    <string name="hen_4_tit">Black Star / Red Star</string>
+    <string name="hen_4_desc">Red Stars and Black Stars are hybrids that have been bred
+        to have their color at hatching linked to the sex of the chicken (pullet or cockerel).
+        This makes chick sexing an easier process, and you as the purchaser are less likely to be
+        surprised! Ever had a pullet start to crow one day? Not with these birds!</string>
+
+    <string name="hen_5_tit">Brahma</string>
+    <string name="hen_5_desc">Brahmas are an excellent addition to a backyard flock.
+        They are hardy chickens in winter climates, they cannot fly over low fences
+        (because of their size), and they have calm and docile personalities. The best part,
+        they lay the majority of their eggs October thru May! That means while the rest of your girls
+        may slow or even quit production for the winter, your Brahmans will keep the egg cartons full of large,
+        medium brown eggs.</string>
+
+    <string name="hen_6_tit">Buckeye</string>
+    <string name="hen_6_desc">
+        The Buckeye breed was created by Mrs. Nettie Metcalf in Ohio in the late 19th century. In fact,
+        the Buckeye is the only American breed of chicken developed solely by a woman. She crossed Buff Cochins and Barred Plymouth Rocks to create a large, lazy fowl,
+        and then added some Black-Breasted Red Game birds.
+        Buckeyes are a dual-purpose breed of chicken with a lustrous red color.
+        They have pea combs (distinguishing them from Road Island Reds), are cold-weather hardy,
+        and adaptive to a variety of living conditions. These active,
+        friendly birds are well-known for their abilities to hunt and catch mice!
+    </string>
+
+    <string name="hen_7_tit">Chantecler</string>
+    <string name="hen_7_desc">
+        In 1907, a monk, Brother Wilfrid Châtelain,
+        noticed that no breeds of chicken had yet been established in Canada.
+        All the birds were from Europe or America. He set out to change this and
+        create a practical chicken that would be suited to Canada’s climate, and be an excellent
+        dual-purpose bird. By 1918, he debuted the Chantecler.
+Chanteclers are large birds with white plumage that lays tight against the body.
+        They have exceptionally small cushion combs and wattles,
+        which attributes to them being one of the most hardy breeds. They are fairly tame,
+        but do not thrive in confinement, so consider this breed for free ranging.
+        They lay about 200 brown eggs annually.
+    </string>
+
+    <string name="hen_8_tit">Delaware</string>
+    <string name="hen_8_desc">
+        Delawares were developed in 1940, in Delaware, by George Ellis.
+        The were originally known as “Indian Rivers.” The breed originated from crosses of
+        Barred Plymouth Rock roosters and New Hampshire hens. Although originally intended as a meat bird,
+        Delawares make an excellent dual purpose bird. They are known to have a calm and friendly disposition,
+        and lay jumbo brown eggs – about 4 per week in ideal conditions. Plus,
+        let’s not forget to mention their beautiful plumage!
+    </string>
+
+    <string name="hen_9_tit">Java</string>
+    <string name="hen_9_desc">
+        The Java is the 2nd oldest chicken breed developed in America,
+        going back to 1835. Its ancestors come from the island of Java in the Far East.
+        Javas are an excellent breed for free-ranging homesteads and are known for their egg production and table qualities. Javas come in white, black, mottled, and auburn.
+        The Black Java is known for the brilliant beetle-green sheen of its feathers.
+    </string>
+
+    <string name="hen_10_tit">Jersey Giant</string>
+    <string name="hen_10_desc">The Jersey Giant chicken was developed between 1870 and 1890 in New Jersey.
+        You can probably guess that these birds are pretty big! Roosters weight in at 13 pounds,
+        and hens can easily grow up to 10 pounds! They are the largest purebred chicken breed.
+They are known to be fairly good layers compared to other large breeds,
+        and are good winter layers. Expect about 260 large brown eggs per year.</string>
+
+    <string name="hen_11_tit">Maran</string>
+    <string name="hen_11_desc">
+        Marans originated in western France and were imported in the 1930s. There are 9 recognized colors: Cuckoo,
+        Golden Cuckoo, Black, Birchen, Black Copper, Wheaten, Black-tailed Buff, White and Columbian.
+        If you find Marans chicks at a feed store, they will most likely be the Black Copper or Cuckoo variety.
+        Hens are active and enjoy free ranging, and also have friendly, outgoing personalities.
+
+Marans are renowned for their dark chocolate brown eggs. If you’re looking for unique eggs,
+        these are quite the conversation peace! You’ll get about 150-200 each year in your nesting boxes.
+    </string>
+
+    <string name="hen_12_tit">Naked Neck</string>
+    <string name="hen_12_desc">
+        The Naked Neck is a breed of chicken that is naturally devoid of feathers on its neck and vent.
+        The breed is also called the Transylvanian Naked Neck, as well as the Turken.
+        The name “Turken” arose from the mistaken idea that the bird was a hybrid of a chicken and
+        the domestic turkey.
+
+They make for a good dual-purpose utility chicken. They only have about half the feathers of other
+        chickens, so they are easier to pluck if raised for meat. They also lay a respectable number
+        of eggs. They are very good foragers and are immune to most diseases,
+        plus they are pretty funto look at!
+    </string>
+
+    <string name="hen_13_tit">Orpington</string>
+    <string name="hen_13_desc">
+        Orpington chickens were developed in the town of Orpington, England of all places! During the late 1800s,
+        William Cook wanted to create a new breed that was dual purpose, but had white skin,
+        which the British preferred for meat. Within 10 years, Orpingtons were a favorite in both
+        England and America, and came in a variety of colors – black, white, buff, jubilee, and spangled.
+
+Orpingtons lay about 200 eggs per year. If you’re thinking about adding some to your flock,
+        we suggest the Buff Orpington. They are known for being very docile – they make great pets!
+    </string>
+
+
+    <string name="hen_14_tit">Plymouth Rock</string>
+    <string name="hen_14_desc">
+        Developed in America in the middle of the 19th century, this breed of chicken is historically
+        the most popular in the United States. Up until WWII, no other breed was kept as
+        extensively as the Plymouth Rock. The original birds were all of the Barred variety –
+        with black and white stripped plumage – and other color varieties were developed later.
+        The popularity of this duel-purpose breed came from its qualities as an outstanding farm chicken:
+        hardiness, docility, broodiness, and excellent production of brown eggs. This chicken is
+        usually what comes to mind when you think of the chickens Grandma used to keep!
+    </string>
+
+    <string name="hen_15_tit">Rhode Island Red</string>
+    <string name="hen_15_desc">Rhode Island Reds are a great choice for beginner chicken-keepers, or expert small flock keepers alike! Developed in Massachusetts and Rhode Island in the late 1800s, these birds are a hardy, dual purpose breed. They are very low maintenance, and can tolerate less than favorable conditions. Hens lay about 5 – 7 eggs per week.</string>
+
+    <string name="hen_16_tit">Speckledy aka Speckled Ranger</string>
+    <string name="hen_16_desc">Are you ready for your new favorite breed? The Speckledy is a modern hybrid, resulting from a cross between a Rhode Island Red rooster and a Marans hen.
+
+They are elegant in build, with feathering that resembles a Cuckoo Marans. The feathers are silky, soft to the touch, and quite abundant and fluffy. They have pale bay eyes, pale legs, a medium-sized single comb, and small earlobes and wattles.
+
+They are a docile, easy to tame, and easy to handle bird. They are good foragers and well suited to a free-range environment.
+
+Speckledys are very good layers. Hens will lay 250-270 chestnut brown eggs per year, which are often speckled. Their eggshells are particularly strong and the yolks are a deep yellow. They may produce less than some other hybrids, but they will keep your egg cartons full!</string>
+
+    <string name="hen_17_tit">Sussex</string>
+    <string name="hen_17_desc">This breed has ancient connections going all the way back to 43 A.D., when the Romans invaded Britain. They grew a reputation of being the finest poultry in Britain, and reached America in 1912. They are a dual-purpose breed and will put on fat very easily, so be careful in feeding them too many treats! If they become too overweight, you will see a decline in egg production. Sussex chickens are a wonderful breed for a small farm or homestead, being active and all-around an excellent breed for meat and eggs. Hens lay an average of 250 light brown eggs each year, and come in three recognized color varieties: Speckled, Red, and Light.</string>
+
+    <string name="hen_18_tit">Welsummer</string>
+    <string name="hen_18_desc">Welsummers are a Dutch breed of domestic chicken, developed in the 1920s. It is a light, friendly, and intelligent breed, with rustic-red and orange color. Hens lay large eggs, that are a dark, terracotta brown, and often speckled. Roosters are considered to have the “classic rooster” look, and often used in media.</string>
+
+    <string name="hen_19_tit">Wyandotte</string>
+    <string name="hen_19_desc">
+        Developed in the 1880s, Wyandottes are named after a Native American tribe prevalent in parts of upstate New York and Ontario, Canada. They are thought to be developed from the Dark Brahma and Spangled Hamburgs.
+The Silver Laced Wyandotte was the original color recognized, but since then black, blue, buff, buff Columbian, Columbian, golden laced, partridge, and silver pencilled have been added as recognized color varieties.
+Wyandottes are friendly, calm, and cold hardy. Hens lay on average 200 light brown eggs per year. They make excellent setters and mothers.
+    </string>
+
+    //Buffalo
+
+    <string name="buf_1_tit">MURRAH</string>
+    <string name="buf_1_desc">
+        It is the most important breed of buffaloes whose home is Rohtak, Hisar and Jind of Haryana and Nabha and Patiala districts of Punjab.
+        The colour is usually jet black with white markings on tail and face and extremities sometimes found.
+The tightly curved horn is an important character of this breed.
+The body size is massive, neck and head are comparatively long.
+Head of females is short, fine and clear cut.
+        While a few individual animals yield much as 19.1 kg/day.
+Age at first calving is 45-50 months and inter calving period is 450-500 days.
+    </string>
+
+    <string name="buf_2_tit">NILI RAVI</string>
+    <string name="buf_2_desc">
+        This breed is found in Sutlej valley in Ferozpur district of Punjab and in the Sahiwal district of Pakistan.
+(bred around Ravi river)
+Usually the colour is black with white marking on forehead, face, muzzle, legs and tail.
+        The horns are small and coiled tightly. The neck is long, thin and fine.
+The milk yield is 1500-1850 kg per lactation and the inter calving period is 500-550 days.
+Age at first calving is 45-50 months.
+    </string>
+
+    <string name="buf_3_tit">BHADAWARI</string>
+    <string name="buf_3_desc">
+        Agra and Etawah district of Uttar Pradesh and Gwalior district of Madhya Pradesh.
+The body is medium size and wedge shaped. The head is comparatively small, the legs are short and stout, and the hooves are black.
+        The hind quarters are uniform and higher than the forequarter.
+        The average milk yield is 800 to 100 kg.
+The bullocks are good draught animal with high heat tolerance.
+The fat content varies from 6 to 12.5 per cent.  This breed is an efficient converter of coarse feed into butterfat and is known for it high butter fat content.
+    </string>
+
+    <string name="buf_4_tit">JAFFARABADI</string>
+    <string name="buf_4_desc">
+        These are massive animals found in their pure form in Gir forests.  The breeding tract of this breed is Kutch, and Jamnagar districts of Gujarat.
+The head and neck are massive.  The forehead is very prominent, wide with a slight depression in the middle.
+        The average milk yield is 100 to 1200 kg.  These animals are mostly maintined by traditional breeders called Maldharis, who are nomads.
+The bullocks are heavy and used for ploughing and carting.
+    </string>
+
+    <string name="buf_5_tit">SURTI</string>
+    <string name="buf_5_desc">
+        The breeding tract of this breed is Kaira and Baroda district of Gujarat.
+Coat colour varies from rusty brown to silver-grey.  Skin is black or brown.
+        The colour is black or brown
+The peculiarity of the breed is two white collars, one round the jaw and the other at the brisket.
+The milk yield ranges from 900 to 1300 kg.
+The age at first calving is 40-50 months with a intercalving period of 400-500 days.
+The peculiarity of this breed is very high fat percentage in milk (8-12per cent).
+    </string>
+
+    <string name="buf_6_tit">MEHSANA</string>
+    <string name="buf_6_desc">
+        Mehsana is a dairy breed of buffalo found in Mehsana town in Gujarat and adjoining Maharastra state.
+Body is mostly black; a few animals are black-brown in colour.
+        The horns usually are less curved at the end compared to Murrah breed but are longer and could be of irregular shape.
+The milk yield is 1200-1500 kg.
+The breed is supposed to have good persistency.
+The intercalving period ranges between 450-550 days.
+    </string>
+
+    <string name="buf_7_tit">NAGPURI (OR) ELLICHPURI</string>
+    <string name="buf_7_desc">
+        The breeding tract of this breed is Nagpur, Akola and Amrawati districts of Maharashtra.
+These are black coloured animal with white patches on face, legs and tail.
+This is also called as Elitchpuri or Barari.
+        The face is long and thin.  The neck is somewhat long.
+The average milk yield is 700-1200 kg per lactation.
+The age at first calving is 45-50 months with an inter-calving period of 450-550 days.
+    </string>
+
+    <string name="buf_8_tit">GODAVARI</string>
+    <string name="buf_8_desc">
+        Godavari is a result of crossing of native buffaloes with Murrah bulls.  The home tract is Godavari and Krishna deltaic area
+The animals are of medium stature with compact body.  The colour is predominantly black with a sparse coat of coarse brown hair.
+Godavari buffaloes are reputed for high fat with daily average milk yield of 5-8 litres and lactation yield of 1200-1500 litres.
+The animals breed regularly and have a short calving interval compared to Murrah.
+    </string>
+
+    <string name="buf_9_tit">TODA</string>
+    <string name="buf_9_desc">
+        Toda breed of buffaloes is named after an ancient tribe, Toda of Nilgiris of south India.
+Coat colour of the calf is generally fawn at birth.
+        The animals have long body, deep and broad chest, and short and strong legs.
+The head is heavy with horns set well apart, curving inward outward and forward.
+Thick hair coat is found all over the body. They are gregarious in nature.
+    </string>
+
+    <string name="buf_10_tit">PANDHARPURI</string>
+    <string name="buf_10_desc">
+        Native of Kolhapur, Solapur districts in south Maharashtra.
+Body colour varies from light black to deep black.
+It is medium sized animal having long narrow face, very prominent and straight nasal bone, comparatively narrow frontal bone and long compact body.
+Typical characteristic of this breed is its horns which are very long, curved backward, upward and usually twisted outwards. The horns are very long extending beyond shoulder blade, sometimes up to pin bones
+    </string>
+
+    <string name="goat_1_tit">Jamunapari</string>
+    <string name="goat_1_desc">
+        Jamunapari breeds are found mainly in the state of Uttar Pradesh.
+Its coat colour is  white with tan or black markings at neck and ears
+They are beard in both sexes; havetuft of long hairs in the buttocks.
+        An adult female weighs between 45kgs to 60kgs, whereas an adult male ranges between 65kgs to 80kgs.
+Average birth weight is up to 4 kg.
+Average age at first kidding is 20-25 months.
+They have large udder and big teats and average yield is 280 kg / 274 days.
+Have the ability to yield 2 to 2.5kgs of milk per day.
+The fat content of the milk ranges between 3 to 3.5%.
+    </string>
+
+    <string name="goat_2_tit">Beetal</string>
+    <string name="goat_2_desc">
+        It is are found mainly in the state of Punjab
+These breeds are grown mainly for the purpose of milk and meat.
+Generally smaller than the breed of Jamunapari.
+Coat Colour is predominantly black;or brown with white spots of distering size
+Males usually possess beard.
+ They are not so heavy in weight.
+Average birth weight - 3 kg.
+An adult female goat ranges between 40kgs to 50kgs, whereas an adult male ranges between 50kgs to 70kgs.
+Age at first kidding - 20-22 months.
+Average lactation yield - 150 kg.
+They are having the ability to give, one kg to two kgs of milk per day.
+  Maximum yield being 591.5 kg in a lactation period of 177 days.
+    </string>
+
+    <string name="goat_3_tit"> Barbari</string>
+    <string name="goat_3_desc">
+        This is short haired and erect-horned goat popular in urban areas of Delhi, Uttar Pradesh, Gurgaon, Karnal, Panipat and Rohtak in Haryana state.
+Barbari breeds are grown mainly for milk and meat purpose.
+The color of this breed is white with light brown patches.
+An adult female goat weighs between 25kgs to 35kgs, whereas an adult male goat ranges between 35kgs to 45kgs.
+They are having the ability to give one kg to 1.5kgs of milk per day.
+This breed have better reproductive capabilities.
+They will give, 2 to 3 kids in parturition.
+ They are usually stall-fed and are reported to yield 0.90-1.25 kg of milk(fat content 5%) a day  in a lactation period of 108 days
+ They are prolific breeder and kid twice in 12-15 months.
+    </string>
+
+    <string name="goat_4_tit">Tellicherry</string>
+    <string name="goat_4_desc">
+        Tellicherry breed is also called as malabari breed.
+It is found mostly in the state of Kerala.
+It is grown mostly for the purpose of meat.
+Generally seen in white, purple and black colors.
+An adult female ranges in weight from 30 to 40kgs, whereas an adult male ranges between 40 to 50kgs.
+They can yield one kg to two kgs of milk per day.
+These types of breeds have better reproductive capabilities.
+They can give two to three kids in a parturition.
+
+    </string>
+
+    <string name="goat_5_tit">Sirohi</string>
+    <string name="goat_5_desc">
+        Coat colour is brown, white, and admixture of colours in typical patches; hair coarse and short.
+Compact and medium sized body.
+Tail twisted and carries coarse pointed hair.
+ Horns are small and pointed, curved upward and backward.
+Average body weight of buck is 50 and doe is 23 kg.
+Average birth weight is 2.0 kg.
+Kidding is once a year, twins are common.
+Average age at first kidding is 19 months.
+Average lactation yield - 71 kg.
+Average lactation length - 175 days.
+    </string>
+
+    <string name="goat_6_tit">Osmanabadi</string>
+    <string name="goat_6_desc">
+Coat colour is predominantly black; white, brown and spotted occur.
+Long and short-haired type, based on presence or absence of long hair on the thighs and hind quarters.
+Tall and large size body and legs.
+Average birth weight 2.4 kg.
+Kidding is once a year.
+Average age at first kidding 19-20 months.
+It has good quality meat.
+Good yielders produce up to 3.5 kg a day.
+ Average milk yield 170-180 kg per lactation.
+    </string>
+
+    <string name="goat_7_tit"> Kanni aadu</string>
+    <string name="goat_7_desc">
+These are the tallest goat breeds found in Thirunelveli and Ramanadhapuram districts of Tamilnadu.
+Black or white spots in the black background are the characteristics colors of this breed.
+They are usually grown for meat purpose.
+The adult females of this breed ranges from 25kgs to 30kgs and the adult males ranges from 35kgs to 40kgs in body weight.
+They are having ability to give birth to 2 to 3 kids.
+They grow well in the draught regions.
+    </string>
+
+    <string name="goat_8_tit">Kodi aadu</string>
+    <string name="goat_8_desc">
+These breeds are taller and found with different colors, but predominantly black
+They usually give birth to one or two kids.
+They are usually grown for the purpose of guiding the goat flocks, which goes for grazing..
+These types of breeds are mostly found in the districts of Sivagangai, Ramanadhapuram, and Tuticorin districts of Tamilnadu.
+    </string>
+
+    <string name="goat_9_tit">Black Bengal</string>
+    <string name="goat_9_desc">
+Coat colour is predominantly black, brown/grey and white with soft, glossy and short hairs.
+ Dwarf in body size, legs short, straight back; both sexes are bearded.
+ Average live weight of buck is 15 kg and doe is 12 kg.
+Most prolific among the Indian breeds.
+ Multiple births are common - two, three or four kids are born at a time.
+ Kidding is twice a year. Average litter size is 2.1.
+ Average age at first kidding is 9-10 months.
+ Average lactation yield is 53 kg. Lactation length is 90 to 120 days.
+Its skin is in great demand for high quality shoe-making.
+    </string>
+
+    <string name="goat_10_tit">Chegu</string>
+    <string name="goat_10_desc">
+Coat colour is predominantly white but greyish red and mixed colours are also seen.
+Average buck live weight of buck is 39 kg and doe is26 kg.
+Average birth weight is 2.0 kg.
+Kidding is once a year and mostly single.
+Average lactation yield is 69 kg and lactation length is 187 days.
+Used for draught to carry salt and small loads.
+Have long hair with under coat of delicate fibre below (cashmere or pashm).
+Legs are medium sized. Face and muzzle is tapering. Ears are Small.
+Horns are bent upward, backward and outward with one or more twists.
+Used for draught (pack) to carry salt and small loads.
+    </string>
+
+
 </resources>

@@ -1,0 +1,210 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.gocare.Activity14">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="FEEDING\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="The majority of the goats kept in villages are seldom given any grain or good fodder; as a result their average milk production is very low. Milch goats respond readily to good care and proper feeding, and to ensure best results they should be tended like other milch animals."
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="\nFeeding Habits\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Goats are sensitive animals with peculiar feeding habits. They are 'fastidious about cleanliness and like frequent change in the feed. Feeds given must be clean and fresh, since goats eat nothing that is dirty or foul-smelling. They dislike wet, stale or trampled fodder. For this reason it is advisable to feed them in hay-racks or hang the feed in bundles from a peg in a wall or from a branch of a tree. Double-sided portable hay-racks are the most suitable and convenient for stall feeding. It is preferable to serve them small quantities at a time; when served in large; quantities at a time, they waste a lot of it by trampling.
+\nGoats are ruminants. They are very fond of leguminous fodders. They do not relish fodders like sorghum (Sorghum vulgare Pers) and maize (lea mays L.), silage or straw. Goats do not relish hay prepared from forest grasses, even if cut in early stages, but very much relish hay prepared from leguminous crops: Some of the common green roughages liked by the goats are: lucerne (Medicago sativa L.), berseem (Trifolium alexandrinum Juslen.), Napier grass (Penniselum purpureum Schum.), green arhar (Cajanus cajan (L.) Millsp.), cowpea (Vigna sinensis (L.) Savi ex Hassk.), soybean (GIyCiflemax-(L.) Merr.) , cabbage and cauliflowerleaves;shajtal. senji. methi; shrubs and weeds of different kinds; and leaves of trees such as babul (Acacia arabica WilJd), neem (Azadirachta indica A. Juss.), ber (Ziziphus mauritiana Lamk.), tamarind (Tamarindus indica L.) andpipa/ (Ficus re/igiosa L.). The common dry fodders liked by goats are straws of arhar. urid (Phaseolus mungo Roxb.), mung (Phaseolus aureus Roxb.), gram (Cicer arietinum L.), dry leaves of trees, and lucerne or berseem hays. The last two are popular and constitute the main forage crops for milch goats."
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/gofeed"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="\nNutrients Required\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="The nutrients needed may be divided into maintenance, production (for milk, meat and hair production) and pregnancy requirements."
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="\nMaintenance ration: \n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="The maintenance requirements are related to surface area and basal metabolic rate. Goats have higher basal metabolic
+\nrate than cattle; therefore, their maintenance requirements are higher than those of cattle. The requirement by weight is calculated and an additional feed of about 25 to 30 per cent for maintenance is allowed. The maintenance requirement thus calculated is 0·09 per cent digestible crude protein (DCP) and 0·09 per cent total digestible nutrients (TDN). It will be desirable to point out one interesting aspect. For its size the goat can consume substantially more feed than cattle or sheep, viz. 6·5 to 11 per cent of its body weight in dry matter when compared with 2·5 to 3 per cent for cattle or sheep. This means that the goat can satisfy its maintenance requirement and produce milk from forage alone."
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="\nProduction ration:\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Requirements for the production of 1 litre of milk with 3·0 per cent fat is 43 g of DCP and 200 g of starch equivalent (SE), whereas for the production of 1 litre of milk with 4·5 per cent fat it is 60 g of DCP and 285 g of SE.
+\n\nThe nutritional requirements of a goat weighing 50 kg and yielding 2 litres of milk with 4 per cent fat may be met by feeding 400 g of concentrate mixture and 5 kg of Berseem or Lucerne. The ration should have 12 to 15 per cent protein content, depending on the amount of protein in their hay and in the milk produced."
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="\nMineral mixture:\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Minerals should be given as an essential part of the ration as they contribute to the building of the skeleton, physiological functions and production of milk. The more important of these salts are calcium and phosphorus. The requirements of calcium and phosphorus for maintenance are 6·5 and 3·5 g, respectively, per 50 kg body weight. Goats require slightly larger quantities of calcium than sheep. The mineral mixture may be included in the concentrate ration at the rate of 0·2 per cent."
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="\nCommon salt:\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Lumps of rock salt are just the' thing for them. These lumps of salt, of fairly good size, should be hung up in some suitable place where goats can easily get at them, or else they may be kept in the manger. The provision of salt licks is very important for goats as they secrete a good amount of sodium and chloride ions in milk. The salt often helps to tone up the system and may even have some effect in removing worms from the body. Salt to the extent of 2 percent may also be mixed with the daily grain ration of goats."
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="2dp"
+                android:text="\nVitamins and antibiotics:\n"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Goats need particularly vitamins A, D and E. The microbes in the rumen synthesize most of the other needed vitamins. Vitamin A can be supplied by feeding green forage and yellow maize. One kg of lush-green fodder will provide. Synthetic vitamins A and D may be included in the ration of growing kids.
+\nFeeding of aureomycin or terramycin increase the growth rate of young kids, reduces the incidence of scours and other infectious diseases and improves the general appearance of the kids."
+                android:textColor="#424949"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

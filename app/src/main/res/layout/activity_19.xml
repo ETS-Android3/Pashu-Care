@@ -1,0 +1,175 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.hencare.Activity19">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nFEEDING OF POULTRY\n"
+                android:lineSpacingExtra="5sp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feeding constitutes the fundamental and major management concern in poultry production since major expenditure (60-70%) in poultry rising is feed cost. Efficiency in feeding therefore is one of the key factors for successful poultry production. More than 40 nutrients are required by the poultry. They can be arranged into six classes according to their chemical nature, functions they perform and the ease with which they are chemically determined.
+
+\nThese groups of nutrients are: water, proteins, carbohydrates, fats, minerals and vitamins.
+
+\nCarbohydrates and fats are the principal sources of energy. Fats are the concentrated form of energy and yield 2·25 times more energy than, carbohydrates, on weight basis. Fats are also the source of essential fatty acids, i.e. linoleic, linolenic and arachidonic acids. The requirement for protein is essentially the requirement for amino acids.
+
+\nThe essential amino acids for poultry are : arginine, glycine, histidine, leucine, isoleucine, lysine, methionine, cystine, phenylalanine, threonine, tryptophan and valine. Out of these, the ones critical in practical diets are arginine, lysine, methionine, cystine and tryptophan.
+
+\nMinerals and vitamins do not supply energy but they play an important role in the regulation of several essential metabolic processes in the body. The minerals and vitamins that are critical in practical poultry diets are as follows:\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nMinerals  :\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calcium, phosphorus, sodium. copper, iodine, iron, manganese and zinc.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nVitamins :\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vitamin A, vitamin D3, vitamin E, pyridoxine, riboflavin, pantothenic acid, niacin, folic acid, BIZ and choline .\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nA balanced ration is the one which will supply different nutrients in right proportions according to the requirements for maintenance and various productive functions. The nutrients required by poultry must be supplied in rations through the ingredients available in sufficient quantity economically.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nFeed Ingredients\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conventional poultry rations usually include many cereals like maize, rice, wheat, oat, barley; and a few cereal byproducts such as wheat-bran or rice polish, animal and vegetable protein sources like fish-meal, meat-meal, soybean-oil-meal, groundnut-cake, etc. according to their availability. The whole ration is fortified with adequate minerals and vitamins either in chemically pure or through ingredients known to be rich in these nutrients.
+\nWith the cost of feed soaring high and the availability of conventional ingredients becoming scarce, intensive and continuous efforts are being made to determine the nutritive value of agro industrial byproducts to replace more costly ingredients in poultry rations. The following are some of the common feedstuffs used for making poultry rations in this country.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nConventional Poultry Feeds\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n*Maize: It is highly digestible and contains very little fibre. It is used as a source of energy and is low in protein, especially lysine, and sulphur-containing amino acids. The yellow varieties are a good source of vitamin A and xanthophyll. The latter is responsible for the yellow skin in certain breeds of fowl.
+\n*Barley: Barley is not very palatable because of its high fibre content and should not constitute more than 15 per cent of the ration.
+\n*Oat: Oat is not very palatable because of its high fibre content. It should not constitute more than 20 per cent of the ration. Because of its manganese content, it may help in preventing hock disorders, feather pulling and cannibalism.
+\n*Wheat: Wheat can be used for replacing maize as a source of energy.
+\n*Wheat bran: It is bulky and quite laxative on account of its high fibre, manganese and phosphorus content.
+\n*Pearl millet: This is a very useful feedstuff, similar to wheat in its nutritive value.
+\n*Rice: Broken grains of rice can be used for replacing maize.
+\n*Rice polish: This is a very good substitute for cereal grains and can be used up to 50 per cent of the ration. Because of the high oil content, it is likely to become rancid on storage under warm conditions.
+\n*Deoiled rice polish: Energy content of deoiled rice polish is low because of the removal of fat, but it is rich in protein and ash content.
+\n*Sorghum: The feeding value of sorghum is similar to that of maize. But it has a higher protein content, quite palatable and maybe used in place of maize. Sorghum-meal is a good source of some amino acids, but costlier than other oilcakes.
+\n*Groundnut-cake: It is quite palatable and is widely used as a source of protein in poultry rations. It contains about 40 per cent protein.
+\n*Fish-meal: Fish-meal is one of the best poultry feedstuffs as a source of animal protein. Its composition varies widely depending upon whether it is made from whole bony fish or fish cannery scraps. Most Indian fish-meals contain 45 to 55 per cent protein. The presence of fish scales reduces its feeding value.
+\n*Limestone: Limestone is a source of calcium. It should not contain more than 5 per cent magnesium.
+\n*Oyster-shell: Oyster-shell contains more than 38 per cent calcium, and is a good substitute for limestone. It is quite palatable.   "
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

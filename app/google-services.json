@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "578025694413",
+    "firebase_url": "https://online-music-player-60b69-default-rtdb.firebaseio.com",
+    "project_id": "online-music-player-60b69",
+    "storage_bucket": "online-music-player-60b69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578025694413:android:1f161c8a9a8eba32c0f584",
+        "android_client_info": {
+          "package_name": "com.sandydalvi.agroapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578025694413-ic81qkj2bhor76igt82mbp9hvo8qf8ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn54u3VqkPdAxh7vqhk2DRuXFTGXkmi1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578025694413-ic81qkj2bhor76igt82mbp9hvo8qf8ra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

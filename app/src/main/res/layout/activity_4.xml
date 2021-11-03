@@ -1,0 +1,167 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.catcare.Activity4">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="METHODS OF MILKING\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hand milking and machine milking are the two methods of which in India .\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Hand Milking\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cows are milked from left side. after let down of milk, the milker starts milking teats either cross wise or fore quarters together and then hind quarters together  or teats appearing most distended milked first few streams of fore milk from each teat be let on to a strip cup. This removes any dirt from the teat canal and gives the operator a chance to detect mastitis.
+
+\nMilking is done either by stripping or by full hand method. Stripping is done by firmly holding the teat between the thumb and fore finger and drawing it down the length of the teat and at the same time pressing it to cause the milk to flow down in a stream. Grasping the teat with all the five fingers and pressing it against the palm does fisting or full hand milking. The teat is compressed and relaxed alternatively in quick succession, thus the method removes milk much quicker than stripping as there is no loss of time in changing the position of the hand. Further full hand method is superior to stripping as it stimulates the natural suckling process by calf and moreover the method exerts an equal pressure on the large teats of cows and buffaloes.
+
+\nMany milkers during milking tend to bend their thumb against the teat. The method is known as knuckling which should always be avoided to prevent injuries of the teat tissues. Thus milking should always be done with full hand unless the teats are too small or towards the completion of milking. The first few strips of milk from each quarter should not be mixed with the rest of the milk as the former contains highest number of bacteria."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cat_milk1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Machine Milking\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modern milking machines are capable of milking cows quickly and efficiently, without injuring the udder, if they are properly installed, maintained in excellent operating conditions, and used properly. The milking machine performs two basic functions.\n
+\n*It opens the streak canal through the use of a partial vacuum, allowing the milk to flow out of the teat cistern through a line to a receiving container.
+\n*It massages the teat, which prevents congestion of blood and lymph in the teat."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Advantage\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The advantages of this milking machine are manifold. It is easy to operate, costs low, saves time as it milks 1.5 litre to 2 litres per minute. It is also very hygienic and energy-conserving as electricity is not required. All the milk from the udder can be removed. The machine is also easily adaptable and gives a suckling feeling to the cow and avoids pain in the udder as well as leakage of milk.\n"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cat_milk2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Milking machine\n"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="\n*A calf and the machine- similar fashion
+\n*Tongue, Dental pallet and jaw movement of the calf by the inflation tube, pulsator and vacuum pump.
+\n*352mm Hg- Cattle
+\n*400mm Hg in Buffaloes"
+                android:textColor="#424949"
+                android:textSize="12sp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

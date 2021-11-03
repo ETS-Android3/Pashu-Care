@@ -3,24 +3,83 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23055555555555557" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/drawable/background_button.xml" value="0.262037037037037" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/drawable/background_top.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/drawable/card_back.xml" value="0.2324074074074074" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/drawable/edittext_back.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/drawable/grey_border_buttom.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.21481481481481482" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.22962962962962963" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/drawable/ic_baseline_reply_24.xml" value="0.22592592592592592" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/drawable/ic_favorite_black_24dp.xml" value="0.22592592592592592" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22962962962962963" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/drawable/ic_search_black.xml" value="0.22962962962962963" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/drawable/white_background.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/drawable/white_onclick_grey.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_1.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_10.xml" value="0.20532319391634982" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_11.xml" value="0.1691906005221932" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_12.xml" value="0.17" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_13.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_14.xml" value="0.17" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_15.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_16.xml" value="0.12247141600703607" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_17.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_18.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_19.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_2.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_20.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_21.xml" value="0.1424802110817942" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_22.xml" value="0.1424802110817942" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_23.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_24.xml" value="0.17" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_3.xml" value="0.22" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_4.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_5.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_6.xml" value="0.18771726535341832" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_7.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_8.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_9.xml" value="0.25" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_animal_care.xml" value="0.18" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_buffalo_care.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_buy.xml" value="0.19" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_cattle_care.xml" value="0.25" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_commodity.xml" value="0.2" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_filter.xml" value="0.18" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_filters.xml" value="0.1358839050131926" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_goat_care.xml" value="0.22" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_hens_care.xml" value="0.2" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_home.xml" value="0.15653495440729484" />
-        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_intro.xml" value="0.18" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_intro2.xml" value="0.12269129287598944" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_register.xml" value="0.17" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_search.xml" value="0.14" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_sell.xml" value="0.14" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_show.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_signup.xml" value="0.18" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_types.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_view_post.xml" value="0.17" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/activity_weather.xml" value="0.1424802110817942" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/appbarlayout.xml" value="0.1641337386018237" />
-        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/fragment_on_boarding1.xml" value="0.2" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/dialog_selectphoto.xml" value="0.1358839050131926" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/fragment_account.xml" value="0.1358839050131926" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/fragment_on_boarding1.xml" value="0.25" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/fragment_on_boarding2.xml" value="0.1641337386018237" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/fragment_on_boarding3.xml" value="0.2" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/fragment_post.xml" value="0.8185483870967742" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/fragment_search.xml" value="0.1358839050131926" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/fragment_view_post.xml" value="0.1358839050131926" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/fragment_watch_list.xml" value="0.1358839050131926" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/goiitem.xml" value="0.25" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/item.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/types_category_item.xml" value="0.21" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/types_item.xml" value="0.25" />
+        <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/layout/waether_rv_item.xml" value="0.1424802110817942" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/menu/filtermenu.xml" value="0.25" />
         <entry key="..\:/Users/ADEMIN/AndroidStudioProjects/AgroApp/app/src/main/res/menu/mainmenu.xml" value="0.25" />
       </map>

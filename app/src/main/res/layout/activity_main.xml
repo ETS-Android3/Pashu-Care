@@ -59,7 +59,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="80dp"
             android:fontFamily="@font/audiowide"
-            android:text="AGRO FARM"
+            android:text="PASHU CARE"
             android:textColor="#ffffff"
             android:textSize="28sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +83,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
 
-            android:text="makes farming easy"
+            android:text="makes animal husbandry easy"
             android:textColor="#ffffff"
             android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -146,11 +146,11 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginBottom="8dp"
+                    android:src="@drawable/cow"
                     app:layout_constraintBottom_toTopOf="@+id/textView3"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:src="@drawable/market_rate"/>
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView3"
@@ -158,13 +158,15 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="Market Rate"
+                    android:text="Types"
                     android:textColor="#6200ee"
                     android:textSize="18sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="@+id/imageView4"
                     app:layout_constraintStart_toStartOf="@+id/imageView4"
                     app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -183,11 +185,11 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginBottom="8dp"
+                    android:src="@drawable/cow_care"
                     app:layout_constraintBottom_toTopOf="@+id/textView4"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:src="@drawable/crop_care" />
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -195,7 +197,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="Crop Care"
+                    android:text="Animal Care"
                     android:textColor="#6200ee"
                     android:textSize="18sp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -231,7 +233,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:src="@drawable/schemes" />
+                    android:src="@drawable/cow_vet" />
 
                 <TextView
                     android:id="@id/textView5"
@@ -239,7 +241,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="Schemes"
+                    android:text="Veternity centre"
                     android:textColor="#6200ee"
                     android:textSize="18sp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -268,7 +270,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:src="@drawable/poltry" />
+                    android:src="@drawable/tut" />
 
                 <TextView
                     android:id="@id/textView6"
@@ -276,7 +278,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="Poetry"
+                    android:text="Tutorial"
                     android:textColor="#6200ee"
                     android:textSize="18sp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -313,7 +315,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:src="@drawable/weather_icon" />
+                    android:src="@drawable/tips_icon2" />
 
                 <TextView
                     android:id="@+id/textView7"
@@ -321,7 +323,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="Weather"
+                    android:text="Tips &amp; Tricks"
                     android:textColor="#6200ee"
                     android:textSize="18sp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -358,7 +360,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="Tarding"
+                    android:text="Trading"
                     android:textColor="#6200ee"
                     android:textSize="18sp"
                     app:layout_constraintBottom_toBottomOf="parent"

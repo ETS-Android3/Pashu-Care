@@ -1,0 +1,136 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.hencare.Activity20">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nNONCONVENTIONAL POULTRY FEEDS\n"
+                android:lineSpacingExtra="5sp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nEnergy Sources\n"
+                android:lineSpacingExtra="5sp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deoiled salseed-meal: It is a byproduct from processing of Sal fruits for oil.  The composition of meal resembles cereals.  But its use is very much limited to poultry because of high tannin content.
+\nTapioca-meal : It is obtained from the tubers of tapioca. The meal is a good source of energy. Certain varieties contain gynogenic substances. These can be removed during the processing of tapioca by sun drying or heating.
+\nDried poultry waste: Uncontaminated caged layer dropping is generally high in calcium and phosphorus and contains about 10 to 12 per cent true protein. If treated properly it can be included in the diet up to 10 per cent without any detrimental effect
+\nMolasses: May be used to replace cereal grains upto 45% of the ration. Higher percentage produces loose excreta because of high mineral content of molasses.
+\nSmall millets: Small millets such as kodon and sawan can be used in place of maize up to 20 per cent in the ration. Ragi, kambu and cholam, available in southern India, may also be satisfactorily used to replace maize to an extent of 50 per cent."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nVegetable Protein Sources\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n*Mustard-cake: It is superior to groundnut-cake in protein quality and lysine content. Its use in poultry ration is limited because of the presence of glycosides and goitrogens. Even after treatment its use should be limited to 5% in chick and 10% in laying hen diets.
+\n*Soybean-meal: Soybean contains about 35 to 40% protein and 18 to, 21 % fat. The oil may be removed in several ways. Expeller processing of the beans yielded a meal which contained 42% protein and 5% fat. Suitable heal treatment improves the protein quality of the meal. It is a high-quality vegetable protein rich in lysine, arginine, glycine, tryptophan and cystine. The limiting amino acid is methionine.
+\n*Sesame-meal: It is a good source of protein supplement and a good source of arginine, methionine and tryptophan, but poor in lysine, cystine and glycine.
+\n*Clusterbean : It is a byproduct in the manufacture of vegetable gum from the seeds of clusterbean plants. It is rich in protein but its use is limited by residual clusterbean gum and due to the presence of  trypsin inhibitor .
+\n*Sunflower seed-meal: It is superior to groundnut-meal in nutritive value. But because of high fibre content its use is restricted in poultry rations. Compared to soybean-meal it is richer in methionine and arginine but poor in lysine. It is an excellent source of pantothenic acid and niacin .
+\n*Safflower-meal: It is a good substitute to groundnut-cake up to 25 per cent level in the ration. Lysine deficiency appears to be one of the main limitations in total utilization of this cake.
+\n*Ramtil-cake : It can replace satisfactorily up to 50 and 100 per cent of groundnut-cake in chicks and layer rations respectively.
+\n*Cotton-cake: High in protein content but deficient in lysine. It cart be used up to 15 per cent as a substitute for groundnut-cake. Continuous use causes yolk mottling on stored eggs due to the presence of gossypol in the cake.
+\n*Maize gluten-meal and feed: A byproduct of maize starch industry it is rich in protein and xanthophylls but deficient in lysine, tryptophan and arginine.
+\n*Penicillin mycelium waste: It is a byproduct from the manufacture of penicillin. It is a good protein source and contains some residual antibiotic activity. It can be used at levels of 5 per cent in the ration.
+\n*Linseed-meal: It is a good source of tryptophan but contains cyanogenic glycoside and antipyridoxial factor. Cannot be used more than 5% if not processed. The meal can be rendered non-toxic by boiling."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nAnimal Protein Sources\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n*Blood-meal: It contains 80 per cent protein and is rich in lysine, arginine, methionine, cystine and leucine, but deficient in isoleucine. The maximum dietary level of inclusion is not greater than 2 to 3 per cent due to unpalatability and low biological value of its protein.
+\n*Liver residue-meal : It is a good source of lysine, methionine, cystine and tryptophan, and an excellent source of riboflavin, choline and vitamin B12
+\n*Silkworm pupae-meal: Deoiled silkworm pupae-meal is a good protein supplement. Because of high fibre content and poor protein digestibility its use is restricted in poultry rations.
+\n*Hatchery byproduct-meal: This consists of infertile eggs, dead embryos, killed chicks and egg shells collected as waste during hatchery oprations, and have been cooked, dried and grounded with or without removal of part of its fat. It contains approximately 25-34 per cent crude protein depending upon the material that goes into its making.
+\n*Feather-meal: It contains 80-85 per cent of crude protein and may be used up to 5 per cent level in poultry rations.
+\n*Poultry byproduct-meal: It is a product from poultry processing plants, and includes heads, feet and entrails. Il must not contain more than 16 per cent ash and no more than traces of feathers. The meal may contain 55 to 60 per cent protein and 12 per cent fat if not extracted.
+\n*Meat and meat-cum-bone-meal : Besides a good source of high quality protein, it is a good source of calcium and phosphorus. The quality of meal is variable depending upon the processing methods and the proportion of gelatin it contains. The variable quality and content of phosphorus limit the use of these meals to 5 to 10 per cent of the diet."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

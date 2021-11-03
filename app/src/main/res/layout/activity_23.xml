@@ -1,0 +1,195 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.hencare.Activity23">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="POULTRY MANAGEMENT\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poultry management usually refers to the husbandry practices or production techniques that help to maximize the efficiency of production. Sound management practices are very essential to optimize production. Scientific poultry management aims at maximizing returns with minimum investment.\n"
+                android:textColor="#000000"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Brooder Management\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brooder house: Brooder house should be draft-free, rain-proof and protected against predators. Brooding pens should have windows with wire mesh for adequate ventilation. Too dusty environment irritates the respiratory tract of the chicks. Besides dust is one of the vehicles of transmission of diseases. Too much moisture causes ammonia fumes which irritate the respiratory tract and eyes. Good ventilation provides a comfortable environment without draft.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nSanitation and hygiene:\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All movable equipments like feeders, waterers and hovers should be removed from the house, cleaned and disinfected. All litters are to be scraped and removed. The interior as well as exterior of the house should be cleaned under pressure. The house should be disinfected with any commercial disinfectant solution at the recommended concentration. Insecticide should be sprayed to avoid insect threat. Malathion spray/blow lamping or both can be used to control ticks and mites. New litter should be spread after each cleaning. The insecticides if necessary should be mixed with litter at recommended doses. \n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nLitter:\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suitable litter material like saw dust and paddy husk should be spread to a length of 5 cm depending upon their availability and cost.  Mouldy material should not be used.  The litter should be stirred at frequent intervals to prevent caking.  Wet litters if any should be removed immediately and replaced by dry new litter.  This prevents ammoniacal odour.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nBrooding temperature:\n"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nBrooder space:\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brooder space of 7 to 10 sq inch (45-65 cm2) is recommended per chick. Thus a 1·80 m hover can hold 500 chicks. When small pens are used for brooding, dimension of the house must be taken into consideration as overcrowding results in starve-outs, culls and increase in disease problems.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nBrooder guard:\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To prevent the straying of baby chicks from the source of heat, hover guards are placed 1·05 to 1·50 m from the edge of hover. Hover guard is not necessary after 1 week.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nFloor space:\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Floor space of 0·05 m2 should be provided per chick to start with, which should be increased by 0·05 m2 after every 4 weeks until the pullets are about 20 weeks of age. For broilers at least 0·1 m2 of floor space for female chicks and 0·15 m2 for male chicks should be provided till 8 weeks of age. Raising broiler pullets and cockerel chicks in the separate pens may be beneficial\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:text="\nWater space:\n"
+                android:padding="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plentiful of clean and fresh water is very much essential. A provision of 50 linear cm of water space per 100 chicks for first two weeks has to be increased to 152-190 linear cm at 6 to 8 weeks. When changing from chick fountain to water trough the fountains are to be left in for several days till the chicks have located the new water source. Height of the waterers should be maintained at 2·5 cm above the back height of the chicks to reduce spoilage. Antibiotics or other stress medications may be added to water if desired. All waterers should be cleaned daily. It may be desirable to hold a few chicks one at a time and teach them to drink."
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

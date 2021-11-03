@@ -1,0 +1,442 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.gocare.Activity16">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nDISEASES OF GOAT AND ITS PREVENTION\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Generally goats are resistant to many diseases. However when we rear more number of animals in one place and insufficiency of pasture facilities, intensive system of rearing leads to spread of many diseases. This causes reduced production potential and more mortality which in turn causes economic losses to the farmers. Hence identification of diseases in goat and its prevention is most important.
+
+\nHealth management is more important especially worm load. Hence the kids must be dewormed at first month of age and then once in a month upto 6 months of age. Ecoto-parasites must be treated carefully because it not only affect the growth and also affect skin quality."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/gotab1"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/gotab2"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nCommon control measures\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proper drainage, sprinkling of copper sulphate near watter bodies will help to control fluke infection
+\nAvoid early morning and late evening grazing
+\nKeep the shed clean and provide clean quality drinking water
+\nSeparate infected animal from healthy one
+\nProvide proper quarantine measures while purchasing new animals
+\nProper disposal of dead animals
+\nRotational grazing to control infection"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nBLOAT\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bloat will be formed when animal consume young leaves and grasses, unknown weeds, easily digestible cereals, rotten vegetables and fruits. Bloat will be followed by diarrhoea, dysentery leads to decumbency and death. Administration of vegetable oil  (50-100 ml) orally in a careful manner can help in control of bloat as a first aid and then get veterinary doctor help. Sometime feeding potato, brinjal may also obstruct the food passage and leads to bloat due to obstruction of gas from the rumen."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nINDIGESTION\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Low quality feed, fungal contaminated feed, change of feed may also cause indigestion. Sometime non-availability of quality water for drinking, feeding of some toxic plat also cause indigestion."
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nGOAT POX \n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goat-pox is not of uncommon occurrence, but it is less severe than the sheep-pox.  The nature of the disease is similar to that of pox in sheep.  The incubation period varies from 5 to 10 days.  The disease tends to attack male kids and ewes in milk.  Initially there may be slight pyrexia.  The lesions are not so side spread as in sheep-pox, being confined to the hairless regions of the body such as axilla, things, nose and mouth.  In the female the udder may also be involved.  The lesions are typically of pox but usually are much smaller than those of the sheep-pox. The goat-pox virus is antigenically distinct from the sheep pox virus, although it is transmissible experimentally to both goats and sheep.  The goat-pox in sheep is more severe than the sheep-pox.  The goat-pox virus is anitgenically distinct from the sheep pox virus, although it is transmissible experimentally the sheep-pox.  The lesions occur on  the lips and oral mucosa, the teats and udder.  The goat-pox virus affords solid protection in sheep against both goat-and sheep-pox, but the sheep-pox virus does not protect goats against the goat pox."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/goatdis3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nDisease Management\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Be on the alert for signs of illness such as reduced feed intake, fever, abnormal discharge or unusual behavior.
+\n*Consult the nearest veterinary aid centre for help if illness is suspected.
+\n*Protect the animals against common diseases.
+\n*In case of outbreak of contagious diseases, immediately segregate the sick animals from healthy one and take necessary disease control measures.
+\n*De-worm the animals regularly.
+\n*Examine the faeces of adult animals to detect eggs of internal parasites and treat the animals with suitable drugs.
+\n*Provide clean and uncontaminated feed and water for minimizing the health disorders.
+\n*Strictly follow the recommended vaccine schedule."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nOther Preventive Measures\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Annual vaccine with Bar-Vac CD/T. For immunizing against tetanus and overeating disease. We give 2 cc per animal. The first time an animal is given the vaccine it must have a booster shot 30 days later. We vaccine newborn kids at 20+ days old and booster shot 30 days later.
+\n*Annual vaccine with Triangle® 9 + Type II BVD -  For immunizing against 9 different types of respiratory problems. We give 2 cc per animal under the skin. There must be a booster shot for the first time given. Kids must be at least 2 months old.
+\n*Drench newborn kids with Bar-Guard-99. Used for the prevention of colibacillosis caused by K99 strains of Escherichia coli. Our vet told us this can also help prevent Floppy Kid Syndrome. We drench newborn kids immediately after they have their first mother's milk. We give them 2 ccs.
+\n*Preventive De-worming for internal parasites. We de-worm as little as possible to try and have our animals build up resistance to internal parasites. We treat our does about 2 weeks before kidding.
+\n*Regular barn cleaning. We clean our barns about every 2 weeks to give our animals as clean of environment as possible.
+\n*Treat animals with Pro-Bios when they are given antibiotics to ensure the rumen continues to work properly.
+\n*Lab testing of any Abscess. Any abscess we find on an animal is reviewed by our vet and the abscess content is tested to see if it is CL. Any animal that tests for CL will be eliminated from our farm but not sold to our customers. We do not manage CL, we eliminate it."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nPreventive Measures we do not take\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vaccinate for Sore Mouth. We do not vaccinate for Sore Mouth. If you have not had Sore Mouth on your farm, vaccinating for it brings live bacteria on your site and will require annual vaccinations to protect animals. If you have had Sore Mouth on your farm, any animal getting it will become immune to it when they do get it. It only lasts for around 3 weeks. We will monitor for any serious infections.
+\nHoof Trimming. We only trim hooves on exception. We want to have animals that do not require regular trimming. If an animal does have hooves that get bad and may cause problems, we will trim them as required. We prefer that the hooves break off or chip during normal movement."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nProblems in pregnancy\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We breed our does individually and therefore know approximately when they are scheduled to kid. This is important for us because it allows us to watch for specific problems during their pregnancy. There are two main type of problems related to pregnancy. They are Pregnancy Toxemia and Abortions. Pregnancy Toxemia is a problem that we have seen many times. We have never had a problem  that we know of where the does aborted however we have talked to friend that have had abortion problems."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nPregnancy Toxemia\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is a problem in the late pregnancy, normally the last month and especially last two weeks. It is normally related to a doe with multiple kids. During the last two months, the kids are adding 70% of their birthing weight. During the final weeks, there is additional nutritional requirements for the kids as continue to increase in size and  there is less and less room for the rumen to hold the same amount of food. The goats body will give the kids nutritional needs the priority  at the expense to the mother. She may not be able to consume enough nutrition and the body will start converting the mothers carbohydrates stored in her tissues. This leads to the release of keton bodies into her blood - a sign that her metabolism is faulty.
+\nThe symptoms will be a loss of appetite, not wanting to get up or move around, sweet-smelling breath, limping and swelling of feet or walking very tenderly. Ketosis strips can be used to identify if the doe is ketotic Give doe propylene glycol twice a day. We give 60cc drench in am and pm. We also create a mixture of sodium bicarbonate with water and give 30cc drench am and pm. Help get the doe up and moving around during the day and offering her high energy food."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nAbortions\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nNutritional Problems\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proper nutrition is essential for having healthy kids. Simultaneous deficiencies of energy and protein can cause abortion of embryos early in the pregnancy. Deficiencies of some trace minerals such as copper and iodine can be the cause of abortions. Also, excessive selenium for an extended period can cause abortions."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nInfectious Problems\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An abortion by one or more of the goats in your herd may indicate an infectious disease that needs an overall management response. It is likely that your vet will be required to identify the type of infection causing the problem.\n
+\n*Chlamydiosis - caused by an intracellular organism. Abortion typically occurs in the last 2 months of pregnancy and especially the last 2 weeks. The rest of the pregnant herd must be considered. Non bred does can catch the infection but it will result in their becoming immune. You should consider injecting pregnant does with tetracyclines by the intramuscular rout to try and prevent them from aborting.
+\n*Toxoplasmosis - this is associated with a coccidium of cats. Cats become infected by consuming uncooked meat scraps, placentas, and small rodents. Goats become infected by eating grass, hay or garin contaminated by cat feces.It can result in abortion, stillbirths and weak kids. However, reducing exposure to cat may help but in may lead to an increase in rats that carry other diseases.
+\n*Q Fever - a bacterial disease capable of being transmitted from animals to people caused by Coxiella burnetii, a rickettsial organism. C. burnetii may be found in sheep, cattle, goats, cats, dogs, some wild animals (including many wild rodents), birds, and ticks. Animals shed the organism in their urine, feces, milk, and especially in their birth products. Abortion or stillbirths occur in late pregnancy, but only when the placenta has been severely damaged. Treatment is with tetracycline. Placentas and aborted fetuses shoud be destroyed by burning.
+\n*Brucellosis - brucella organisms infect a goats placenta and udder, causing abortion and mastitis When goats in an endemic herd are in a stressful environment and management is not adequate to control nutritional and parasitic diseases, then abortion will occur in the last 2 months of pregnancy.
+\n*Listeriosis - caused by listeria monocytogenes a ubiquitous organism that may be found in soil, water, plant litter and digestive tract of ruminants. Abortions occur in the last 2 months. Treatment is usage of tetracyclines."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nBRUCELLOSIS OF GOATS\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/goatdis4"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nTransmission\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A large number of organisms are eliminated ruing abortion. The mode of entry is by ingestion or via conjunctiva. The aborted foetus, vaginal discharge and milk from infected goats contain a large number or organisms."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nSymptoms\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In infected goats and sheep state of abortion may occur followed by a quiescent period during which a few abortions occur. The aborted animals do not breed. After 2 years or more another abortion storm is likely to occur."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nDiagnosis, Treatment and Control\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It is not possible to diagnose brucellosis on the basis of symptoms alone. The suspicion is aroused when humans in contact suffer from undulant fever and there is poor breeding record in goat herd and evidence of mastitis. The diagnosis can be done by the isolation of organisms and by serological tests.
+\n*There is no adequate treatment.
+\n*This is based on hygiene, vaccination, testing and disposal. Good management practice is essential. Separate quarters should be provided for kidding. Immunization can be done with attenuated as well as killed vaccines. The test and disposal procedure is highly desirable."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nJOHNE`S DISEASE\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Johne`s disease is a specific chronic contagious enteritis of cattle, sheep, goat, buffaloes and occasionally of pigs. The disease is characterized by progressive emaciation, and in cattle and buffaloes by chronic diarrhea and thickening of the intestine."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nTransmission\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Under natural conditions the disease spread by ingestion of feed and water contaminated by the faeces of infected animals. The infection occurs mostly in the early month of life. The incubation period extends from 12 months to several years. The animal aged 3 to 6 years mostly suffer from the disease. Affected animals may not show clinical symptoms continue to discharge organisms in faeces. The organisms persist in pastures for about 1 year. The organisms are susceptible to sunlight, drying and high PH of soil; continuous contact of urine with faeces reduces the life of bacteria.
+
+\nIn cattle clinical signs appear mainly during 2-6 years of age. The infected animals which are apparently healthy, often show clinical signs after parturition."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

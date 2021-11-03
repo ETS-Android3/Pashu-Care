@@ -1,0 +1,400 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context=".care.hencare.Activity17">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poultry Rearing\n"
+                android:lineSpacingExtra="5sp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basically two systems are commonly followed in our country\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Cage system
+\n2. Deep litter system\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="I. Cage system:\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nThe cage system of rearing birds has been considered as a super intensive system providing floor area of 450-525 sq.cm. (0.6-0.75 sq.feet) per bird.  In cage the birds are kept in one, two or three per cage, arranged in single or double or triple rows.\m"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/henh1"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/henh2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Advantages\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Greater number of birds is reared per unit of area
+\n2. Facilitates correct maintenance of records
+\n3. Helps in identifying poor producers and prompt culling
+\n4. Control of vices of poultry cannibalism and egg eating
+\n5. It helps in production of clean eggs
+\n6. Removal of stress factors
+\n7. Easy control of parasitic disease like coccidiosis and worm infestation
+\n8. Prompt steps to control feed wastage.
+\n9. The cage method of housing is ideal for the area of moderated climate conditions where the day temperature in summer does not high and temperature does not fall too low.
+\n10. Egg production of caged layer was reported to be more then those kept in deep litter system.
+\n11. Feed efficiency and egg weight were better in caged birds than the laying flock under deep litter system."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nDisadvantages:\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Difficulties in ensuring proper ventilation to birds especially in summer season and under very high densed conditions.
+\n2. Incidence of leg problem, cage layer fatigue, fatty liver syndrome, flies and obnoxious gases in the house will be on increases
+\n3. Hysteriosis of chicks"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nCage fatigue:  Cage fatigue is considered to a physiological derangement of mineral electrolytes imbalance.  Leg weakness is common in caged birds.\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/henh3"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nFatty live syndrome:\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" It is a problem met with caged layers due to increased deposition of fat in the body resulting in death due to internal hemorrhage.  Increasing the protein level and the diet strengthened by the addition of choline, vitamin B12, inositol and vitamin-E may be helpful in reducing the incidence of problem.
+\nProper ventilation, correction of light-intensity, duration, temperature, ideal environmental conditions, and maintenance of comfort in cages will check the conditions of hysteria of chicken in cages."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nII. Deep litter system:\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deep litter system is commonly used in all over the world.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/henh4"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/henh5"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nAdvantages\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. It is an economical
+\n2. Hygienic, comfortable and safe to birds
+\n3. Built up litter supplies vitamin B12 and Riboflavin to the birds
+\n4. Controls diseases and vices
+\n5. It increases the efficiency of production
+\n6. Materials such as paddy husks saw dust, dried leaf, chopped straw and groundnut kernels depending upon the availability can be used as litter materials."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nPoints to be considered while adopting deep litter system\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. The deep litter system should always kept dry.
+\n2. Only right numbers of birds should be housed
+\n3. The house should be well ventilated
+\n4. The litter should be stirred at least once in a week-wet litter if any should be replaced immediately with new dry litter and birds must be   fed a balanced ratio.
+\n5. The time starting deep litter system should be in the dry period of the year as it allows sufficient time (At least two months) for bacterial      action.
+\n6. Placing of water should be given due attention to keep litter dry.
+\n(Source: Dr.Paul Pricely Rajkumar, AC ans RI, Madurai )"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nConfinement Rearing\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. It is an economical
+\n2. Hygienic, comfortable and safe to birds
+\n3. Built up litter supplies vitamin B12 and Riboflavin to the birds
+\n4. Controls diseases and vices
+\n5. It increases the efficiency of production
+\n6. Materials such as paddy husks saw dust, dried leaf, chopped straw and groundnut kernels depending upon the availability can be used as litter materials."
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nSize of flock: Larger size units are more economical than smaller ones under commercial conditions. A unit of 2000 layers is usually considered as economical for commercial egg production. In the case of broilers a unit intake of 250 chicks per week is usually considered as viable.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stock: Procure the best quality chicks. No amount of good management can convert poor quality chicks into good layers or broilers. More profit can be made in a commercial unit by procuring day old pullet chicks. In broiler units, straight-run chicks would give equally good performance.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Random sample poultry performance test: Government of India has established random sample test units for layers and broilers in four locations, viz. Bangalore, Bombay, Bhubaneswar and Delhi. The test results are published annually and give information about the performance of the various strains and breeds of chicken under identical conditions. This information would help in the choice of the stock.\n"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number to be procured: In determining the number to be procured, normal losses that might occur due to death and culling have to be allowed. For each 1000 layers to be housed,  procure 1100, day-old pullet chicks or 1050 growing pullet chicks or 1000 ready-to-lay pullets. In the case of broilers, the corresponding number would be 250-day-old straight-run chicks for 250 broilers to be marketed at 6-7 weeks of age.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Artificial brooding: Chicks newly hatched out require supplementary heat till they grow feathers. The period of brooding is usually up to 4-5 weeks of age and a little longer in cold season. Artificial brooding can be carried out in deep litter houses or in electrically operated brooder batteries.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nFloor space, feeding space and watering space for chicks\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hentab1"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="\nTemperature requirement of chicks during different ages\n"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="2dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hentab2"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Litter management: Litter materials such as wood shavings; saw dust, paddy husk, peanut shell, paddy chaff, chopped straw and such other materials that absorb moisture well can be used depending upon the cost and availability. Spread the litter to a depth of 5 cm on the floor before introducing chicks and build it up to a depth of 15 cm by adding litter material, at the rate of about 2 cm per week. This would require approximately 10 kg of litter material/sq.meter. Litter should be raked thoroughly at frequent intervals, say at least twice a week, during the cold and rainy season, once a week during the hot season and the day after deworming. Litter should be kept dry always. During the cold and rainy season and on the area of floor where watering utensils are placed, special attention should be paid daily to check the litter condition. If required, top-dress with fresh litter. It is desirable to use dry lime at the rate of 10 kg per 10 m3 and rake the litter.\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Light: Artificial light should be discontinued from the time the chicks no more require additional warmth. Dim light of a 40-watt bulb for every 250 chicks can be provided during the night for broiler chicks.
+(Source: www.vuatkerala.org)\n"
+                android:padding="2dp"
+                android:textColor="#424949"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
