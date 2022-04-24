@@ -93,11 +93,6 @@ https://youtu.be/BBFJimPXr7Y
 
 
 
-## Authors
-
-- [Sandesh dalvi](https://www.github.com/octokatherine)
-
-
 ## Features
 
 - Language Choices
