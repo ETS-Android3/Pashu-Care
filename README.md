@@ -1,6 +1,16 @@
-# Pashu-Care
 
-# ScreenShots
+# PashuCare
+
+An Android App which makes Animal Husbandry Easy
+
+
+## Demo
+
+YouTube Video 
+ 
+https://youtu.be/BBFJimPXr7Y
+
+## ScreenShots
 
 
 <table>
@@ -80,6 +90,53 @@
     <td><img src="https://user-images.githubusercontent.com/69284228/164974361-fd609072-a182-435b-a7ae-db81ac518cd2.jpg" width=270 height=480></td>
   </tr>
  </table>
+
+
+
+## Authors
+
+- [Sandesh dalvi](https://www.github.com/octokatherine)
+
+
+## Features
+
+- Language Choices
+- Finding Nearby Veternary centres
+- Trading
+- Fullscreen mode
+- Cross platform
+
+
+## 🛠 Skills
+Java, FireBase, XML...
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  https://pashucare.netlify.app
+```
+
+
+## Tech Stack
+
+**Client:** JAVA, XML, FIREBASE
+
+**Server:** JavScript, HTML, CSS
+
+
+
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+
 
 
 
